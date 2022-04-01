@@ -1,0 +1,88 @@
+0,Design and Soft-Landing Control of a Six-Legged Mobile Repetitive Lander for Lunar Exploration
+1,Spherical Magnetic Joint for Inverted Locomotion of Multi-Legged Robot
+2,Contact Forces Preintegration for Estimation in Legged Robotics Using Factor Graphs
+3,The Dynamic Effect of Mechanical Losses of Transmissions on the Equations of Motion of Legged  Robots
+4,Impact Mitigation for Dynamic Legged Robots with Steel Wire Transmission Using Nonlinear Active  Compliance Control
+5,Stair Climbing Capability-Based Dimensional Synthesis for the Multi-Legged Robot
+6,State Estimation for Hybrid Wheeled-Legged Robots Performing Mobile Manipulation Tasks
+7,ULT-Model: Towards a One-Legged Unified Locomotion Template Model for Forward Hopping with  an Upright Trunk
+8,Nonlinear Stiffness Allows Passive Dynamic Hopping for One-Legged Robots with an Upright  Trunk
+9,Configuration Transformation of the Wheel-Legged Robot Using Inverse Dynamics Control
+10,A Passive Hydraulic Auxiliary System Designed for Increasing Legged Robot Payload and  Efficiency
+11,Legged Robot State Estimation in Slippery Environments UsingInvariant Extended Kalman Filter  with Velocity Update
+12,Learning a Centroidal Motion Planner for Legged Locomotion
+14,Optimal Estimation of the Centroidal Dynamics of Legged Robots
+15,A Novel Model Predictive Control Framework Using Dynamic Model Decomposition Applied to  Dynamic Legged Locomotion
+16,Generating Continuous Motion and Force Plans in Real-Time for Legged Mobile Manipulation
+18,Planning in Learned Latent Action Spaces for Generalizable Legged Locomotion
+19,AksharaThe Fluid Field SLIP Model: Terrestrial-Aquatic Dynamic Legged Locomotion
+22,Balance Control of a Novel Wheel-Legged Robot: Design and Experiments
+23,Restoring Force Design of Active Self-Healing Tension Transmission System and Application to  Tendon-Driven Legged Robot
+24,Collision-Free MPC for Legged Robots in Static and Dynamic Scenes
+26,Optimization-Inspired Controller Design for Transient Legged Locomotion
+27,Multi-Layered Safety for Legged Robots Via Control Barrier Functions and Model Predictive Control
+28,Combined Sampling and Optimization Based Planning for Legged-Wheeled Robots
+29,Autonomous Distributed System for Gait Generation for Single-Legged Modular Robots Connected  in Various Configurations
+31,Computational Design of Energy-Efficient Legged Robots: Optimizing for Size and Actuators
+32,Wheel-Legged Robotic Limb to Assist Human with Load Carriage: An Application for  Environmental Disinfection During COVID-19
+33,Walking Trajectory Design of Hydraulic Legged Robot with Limited Powered Pump
+34,A Legged Soft Robot Platform for Dynamic Locomotion
+35,Support Surface Estimation for Legged Robots
+36,SpaceBok - A Dynamic Legged Robot for Space Exploration
+37,Dynamics Consensus between Centroidal and Whole-Body Models in Locomotion of Legged Robots
+38,Feedback Motion Planning of Legged Robots by Composing Orbital Lyapunov Functions Using Rapidly-Exploring Random Trees
+39,A Coordinate-Based Approach for Static Balancing and Walking Control of Compliantly Actuated Legged Robots
+40,Energy Efficient Navigation for Running Legged Robots
+41,Sparse Optimization of Contact Forces for Balancing Control of Multi-Legged Humanoids
+42,Haptic Inspection of Planetary Soils with Legged Robots
+43,Online Gait Transitions and Disturbance Recovery for Legged Robots via the Feasible Impulse Set
+44,Trajectory Optimization for Wheeled-Legged Quadrupedal Robots Using Linearized ZMP Constraints
+45,Body Lift and Drag for a Legged Millirobot in Compliant Beam Environment
+46,Walking Posture Adaptation for Legged Robot Navigation in Confined Spaces
+47,Rapidly Adaptable Legged Robots Via Evolutionary Meta-Learning
+48,Detecting Usable Planar Regions for Legged Robot Locomotion
+49,A Model-Free Solution for Stable Balancing and Locomotion of Floating-Base Legged Systems
+50,Line Walking and Balancing for Legged Robots with Point Feet
+51,Automatic Gait Pattern Selection for Legged Robots
+52,Kinodynamic Motion Planning for Multi-Legged Robot Jumping Via Mixed-Integer Convex Program
+53,Snapbot V2: A Reconfigurable Legged Robot with a Camera for Self Configuration Recognition
+54,Fast Global Motion Planning for Dynamic Legged Robots
+55,Dynamic Legged Manipulation of a Ball through Multi-Contact Optimization
+56,Explore Bravely: Wheeled-Legged Robots Traversing in Unknown Rough Environment
+57,Autonomous Spot: Long-Range Autonomous Exploration of Extreme Environments with Legged Locomotion
+58,Real-Time Constrained Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion
+59,Hybrid Systems Differential Dynamic Programming for Whole-Body Motion Planning of Legged Robots
+60,Real-Time Constrained Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion
+61,Autonomous Spot: Long-Range Autonomous Exploration of Extreme Environments with Legged Locomotion
+62, Legged Robots- Multi-Robot Systems
+63, Online Lidar-SLAM for Legged Robots with Robust Registration and Deep-Learned Loop Closure
+65,An Open Torque-Controlled Modular Robot Architecture for Legged Locomotion Research
+66,GaitMesh: Controller-Aware Navigation Meshes for Long-Range Legged Locomotion Planning in Multi-Layered Environments
+67,MPC-Based Controller with Terrain Insight for Dynamic Legged Locomotion
+68,Reactive Support Polygon Adaptation for the Hybrid Legged-Wheeled CENTAURO Robot
+69,on the Hardware Feasibility of Nonlinear Trajectory Optimization for Legged Locomotion Based on a Simplified Dynamics
+70,Agile Legged-Wheeled Reconfigurable Navigation Planner Applied on the CENTAURO Robot
+71,Preintegrated Velocity Bias Estimation to Overcome Contact Nonlinearities in Legged Robot Odometry
+72,Extracting Legged Locomotion Heuristics with Regularized Predictive Control
+73,Probe-Before-Step Walking Strategy for Multi-Legged Robots on Terrain with Risk of Collapse
+74,An Augmented Kinematic Model for the Cartesian Control of the Hybrid Wheeled-Legged Quadrupedal Robot CENTAURO
+75,Rolling in the Deep - Hybrid Locomotion for Wheeled-Legged Robots Using Online Trajectory Optimization
+76,the Soft-Landing Problem: Minimizing Energy Loss by a Legged Robot Impacting Yielding Terrain
+77,a Computational Framework for Designing Skilled Legged-Wheeled Robots
+78,Zero-Shot Imitation Learning from Demonstrations for Legged Robot Visual Navigation
+79,Towards More Possibilities: Motion Planning and Control for Hybrid Locomotion of Wheeled-Legged Robots
+80,Navigation for Legged Mobility: Dynamic Climbing (I)
+81,High-Flexibility Locomotion and Whole-Torso Control for a Wheel-Legged Robot on Challenging Terrain
+82,An Approach of Facilitated Investigation of Active Self-healing Tension Transmission System Oriented for Legged Robots
+83,Combining Spiking Motor Primitives with a Behavior-Based Architecture to Model Locomotion for Six-Legged Robots
+84,Estimating the Center of Mass and the Angular Momentum Derivative for Legged Locomotion ' a Recursive Approach
+85,Fault-Tolerant Force Tracking for a Multi-Legged Robot
+86,Feedback MPC for Torque-Controlled Legged Robots
+87,Improved Energy Efficiency Via Parallel Elastic Elements for theStraight-Legged Vertically-Compliant Robot SLIDER
+88,Multi-Controller Multi-Objective Locomotion Planning for Legged Robots
+89,Online Optimal Impedance Planning for Legged Robots
+90,Online Relative Footstep Optimization for Legged Robots Dynamic Walking Using Discrete-Time Model Predictive Control
+91,Robust Legged Robot State Estimation Using Factor Graph Optimization
+92,Sensitivity of Legged Balance Control to Uncertainties and Sampling Period
+93,Trajectory Optimization for Legged Robots with Slipping Motions
+94,Variable Configuration Planner for Legged-Rolling Obstacle Negotiation Locomotion: Application on the CENTAURO Robot
