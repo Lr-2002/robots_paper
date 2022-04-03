@@ -1,0 +1,75 @@
+name,note_list
+Learning a Centroidal Motion Planner for Legged Locomotion,https://ieeexplore.ieee.org/document/9562022/
+Stair Climbing Capability-Based Dimensional Synthesis for the Multi-Legged Robot,https://ieeexplore.ieee.org/document/9562004/
+Optimal Estimation of the Centroidal Dynamics of Legged Robots,https://ieeexplore.ieee.org/document/9561993/
+Walking Trajectory Design of Hydraulic Legged Robot with Limited Powered Pump,https://ieeexplore.ieee.org/document/9561988/
+The Dynamic Effect of Mechanical Losses of Transmissions on the Equations of Motion of Legged  Robots,https://ieeexplore.ieee.org/document/9561739/
+Impact Mitigation for Dynamic Legged Robots with Steel Wire Transmission Using Nonlinear Active  Compliance Control,https://ieeexplore.ieee.org/document/9561641/
+A Passive Hydraulic Auxiliary System Designed for Increasing Legged Robot Payload and  Efficiency,https://ieeexplore.ieee.org/document/9561581/
+Balance Control of a Novel Wheel-Legged Robot: Design and Experiments,https://ieeexplore.ieee.org/document/9561579/
+Nonlinear Stiffness Allows Passive Dynamic Hopping for One-Legged Robots with an Upright  Trunk,https://ieeexplore.ieee.org/document/9561568/
+Restoring Force Design of Active Self-Healing Tension Transmission System and Application to  Tendon-Driven Legged Robot,https://ieeexplore.ieee.org/document/9561531/
+Multi-Layered Safety for Legged Robots Via Control Barrier Functions and Model Predictive Control,https://ieeexplore.ieee.org/document/9561510/
+A Novel Model Predictive Control Framework Using Dynamic Model Decomposition Applied to  Dynamic Legged Locomotion,https://ieeexplore.ieee.org/document/9561499/
+Collision-Free MPC for Legged Robots in Static and Dynamic Scenes,https://ieeexplore.ieee.org/document/9561326/
+Generating Continuous Motion and Force Plans in Real-Time for Legged Mobile Manipulation,https://ieeexplore.ieee.org/document/9561117/
+Contact Forces Preintegration for Estimation in Legged Robotics Using Factor Graphs,https://ieeexplore.ieee.org/document/9561037/
+A Legged Soft Robot Platform for Dynamic Locomotion,https://ieeexplore.ieee.org/document/9561018/
+Computational Design of Energy-Efficient Legged Robots: Optimizing for Size and Actuators,https://ieeexplore.ieee.org/document/9560988/
+State Estimation for Hybrid Wheeled-Legged Robots Performing Mobile Manipulation Tasks,https://ieeexplore.ieee.org/document/9560948/
+Configuration Transformation of the Wheel-Legged Robot Using Inverse Dynamics Control,https://ieeexplore.ieee.org/document/9560781/
+ULT-Model: Towards a One-Legged Unified Locomotion Template Model for Forward Hopping with  an Upright Trunk,https://ieeexplore.ieee.org/document/9560780/
+Optimization-Inspired Controller Design for Transient Legged Locomotion,https://ieeexplore.ieee.org/document/9560759/
+Combined Sampling and Optimization Based Planning for Legged-Wheeled Robots,https://ieeexplore.ieee.org/document/9560731/
+Wheel-Legged Robotic Limb to Assist Human with Load Carriage: An Application for  Environmental Disinfection During COVID-19,https://ieeexplore.ieee.org/document/9376605/
+Planning in Learned Latent Action Spaces for Generalizable Legged Locomotion,https://ieeexplore.ieee.org/document/9363629/
+Line Walking and Balancing for Legged Robots with Point Feet,https://ieeexplore.ieee.org/document/9341743/
+Kinodynamic Motion Planning for Multi-Legged Robot Jumping Via Mixed-Integer Convex Program,https://ieeexplore.ieee.org/document/9341572/
+Rapidly Adaptable Legged Robots Via Evolutionary Meta-Learning,https://ieeexplore.ieee.org/document/9341571/
+Real-Time Constrained Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion,https://ieeexplore.ieee.org/document/9341447/
+Real-Time Constrained Nonlinear Model Predictive Control on SO(3) for Dynamic Legged Locomotion,https://ieeexplore.ieee.org/document/9341447/
+Fast Global Motion Planning for Dynamic Legged Robots,https://ieeexplore.ieee.org/document/9341438/
+Autonomous Spot: Long-Range Autonomous Exploration of Extreme Environments with Legged Locomotion,https://ieeexplore.ieee.org/document/9341361/
+Autonomous Spot: Long-Range Autonomous Exploration of Extreme Environments with Legged Locomotion,https://ieeexplore.ieee.org/document/9341361/
+Snapbot V2: A Reconfigurable Legged Robot with a Camera for Self Configuration Recognition,https://ieeexplore.ieee.org/document/9341279/
+A Model-Free Solution for Stable Balancing and Locomotion of Floating-Base Legged Systems,https://ieeexplore.ieee.org/document/9341255/
+Dynamic Legged Manipulation of a Ball through Multi-Contact Optimization,https://ieeexplore.ieee.org/document/9341218/
+Detecting Usable Planar Regions for Legged Robot Locomotion,https://ieeexplore.ieee.org/document/9341000/
+Automatic Gait Pattern Selection for Legged Robots,https://ieeexplore.ieee.org/document/9340789/
+High-Flexibility Locomotion and Whole-Torso Control for a Wheel-Legged Robot on Challenging Terrain,https://ieeexplore.ieee.org/document/9197526/
+Extracting Legged Locomotion Heuristics with Regularized Predictive Control,https://ieeexplore.ieee.org/document/9197488/
+Agile Legged-Wheeled Reconfigurable Navigation Planner Applied on the CENTAURO Robot,https://ieeexplore.ieee.org/document/9197407/
+MPC-Based Controller with Terrain Insight for Dynamic Legged Locomotion,https://ieeexplore.ieee.org/document/9197312/
+Preintegrated Velocity Bias Estimation to Overcome Contact Nonlinearities in Legged Robot Odometry,https://ieeexplore.ieee.org/document/9197214/
+Probe-Before-Step Walking Strategy for Multi-Legged Robots on Terrain with Risk of Collapse,https://ieeexplore.ieee.org/document/9197154/
+on the Hardware Feasibility of Nonlinear Trajectory Optimization for Legged Locomotion Based on a Simplified Dynamics,https://ieeexplore.ieee.org/document/9196903/
+ Online Lidar-SLAM for Legged Robots with Robust Registration and Deep-Learned Loop Closure,https://ieeexplore.ieee.org/document/9196769/
+Zero-Shot Imitation Learning from Demonstrations for Legged Robot Visual Navigation,https://ieeexplore.ieee.org/document/9196602/
+Hybrid Systems Differential Dynamic Programming for Whole-Body Motion Planning of Legged Robots,https://ieeexplore.ieee.org/document/9134911/
+Autonomous Distributed System for Gait Generation for Single-Legged Modular Robots Connected  in Various Configurations,https://ieeexplore.ieee.org/document/9115061/
+GaitMesh: Controller-Aware Navigation Meshes for Long-Range Legged Locomotion Planning in Multi-Layered Environments,https://ieeexplore.ieee.org/document/9028233/
+Towards More Possibilities: Motion Planning and Control for Hybrid Locomotion of Wheeled-Legged Robots,https://ieeexplore.ieee.org/document/9028198/
+the Soft-Landing Problem: Minimizing Energy Loss by a Legged Robot Impacting Yielding Terrain,https://ieeexplore.ieee.org/document/9018262/
+An Open Torque-Controlled Modular Robot Architecture for Legged Locomotion Research,https://ieeexplore.ieee.org/document/9015985/
+Reactive Support Polygon Adaptation for the Hybrid Legged-Wheeled CENTAURO Robot,https://ieeexplore.ieee.org/document/8972392/
+Feedback MPC for Torque-Controlled Legged Robots,https://ieeexplore.ieee.org/document/8968251/
+Online Relative Footstep Optimization for Legged Robots Dynamic Walking Using Discrete-Time Model Predictive Control,https://ieeexplore.ieee.org/document/8968028/
+Variable Configuration Planner for Legged-Rolling Obstacle Negotiation Locomotion: Application on the CENTAURO Robot,https://ieeexplore.ieee.org/document/8968014/
+An Approach of Facilitated Investigation of Active Self-healing Tension Transmission System Oriented for Legged Robots,https://ieeexplore.ieee.org/document/8967949/
+Multi-Controller Multi-Objective Locomotion Planning for Legged Robots,https://ieeexplore.ieee.org/document/8967926/
+Online Optimal Impedance Planning for Legged Robots,https://ieeexplore.ieee.org/document/8967696/
+SpaceBok - A Dynamic Legged Robot for Space Exploration,https://ieeexplore.ieee.org/document/8794136/
+A Coordinate-Based Approach for Static Balancing and Walking Control of Compliantly Actuated Legged Robots,https://ieeexplore.ieee.org/document/8793920/
+Dynamics Consensus between Centroidal and Whole-Body Models in Locomotion of Legged Robots,https://ieeexplore.ieee.org/document/8793878/
+Support Surface Estimation for Legged Robots,https://ieeexplore.ieee.org/document/8793646/
+Energy Efficient Navigation for Running Legged Robots,https://ieeexplore.ieee.org/document/8793599/
+Body Lift and Drag for a Legged Millirobot in Compliant Beam Environment,https://ieeexplore.ieee.org/document/8793597/
+Feedback Motion Planning of Legged Robots by Composing Orbital Lyapunov Functions Using Rapidly-Exploring Random Trees,https://ieeexplore.ieee.org/document/8793578/
+Robust Legged Robot State Estimation Using Factor Graph Optimization,https://ieeexplore.ieee.org/document/8790726/
+Sensitivity of Legged Balance Control to Uncertainties and Sampling Period,https://ieeexplore.ieee.org/document/8758907/
+Walking Posture Adaptation for Legged Robot Navigation in Confined Spaces,https://ieeexplore.ieee.org/document/8642939/
+Haptic Inspection of Planetary Soils with Legged Robots,https://ieeexplore.ieee.org/document/8630524/
+Trajectory Optimization for Wheeled-Legged Quadrupedal Robots Using Linearized ZMP Constraints,https://ieeexplore.ieee.org/document/8630448/
+Online Gait Transitions and Disturbance Recovery for Legged Robots via the Feasible Impulse Set,https://ieeexplore.ieee.org/document/8630416/
+Sparse Optimization of Contact Forces for Balancing Control of Multi-Legged Humanoids,https://ieeexplore.ieee.org/document/8620532/
+

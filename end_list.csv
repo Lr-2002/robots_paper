@@ -1,4 +1,3 @@
-0,Design and Soft-Landing Control of a Six-Legged Mobile Repetitive Lander for Lunar Exploration
 1,Spherical Magnetic Joint for Inverted Locomotion of Multi-Legged Robot
 2,Contact Forces Preintegration for Estimation in Legged Robotics Using Factor Graphs
 3,The Dynamic Effect of Mechanical Losses of Transmissions on the Equations of Motion of Legged  Robots
@@ -65,16 +64,12 @@
 71,Preintegrated Velocity Bias Estimation to Overcome Contact Nonlinearities in Legged Robot Odometry
 72,Extracting Legged Locomotion Heuristics with Regularized Predictive Control
 73,Probe-Before-Step Walking Strategy for Multi-Legged Robots on Terrain with Risk of Collapse
-74,An Augmented Kinematic Model for the Cartesian Control of the Hybrid Wheeled-Legged Quadrupedal Robot CENTAURO
-75,Rolling in the Deep - Hybrid Locomotion for Wheeled-Legged Robots Using Online Trajectory Optimization
 76,the Soft-Landing Problem: Minimizing Energy Loss by a Legged Robot Impacting Yielding Terrain
-77,a Computational Framework for Designing Skilled Legged-Wheeled Robots
 78,Zero-Shot Imitation Learning from Demonstrations for Legged Robot Visual Navigation
 79,Towards More Possibilities: Motion Planning and Control for Hybrid Locomotion of Wheeled-Legged Robots
 80,Navigation for Legged Mobility: Dynamic Climbing (I)
 81,High-Flexibility Locomotion and Whole-Torso Control for a Wheel-Legged Robot on Challenging Terrain
 82,An Approach of Facilitated Investigation of Active Self-healing Tension Transmission System Oriented for Legged Robots
-83,Combining Spiking Motor Primitives with a Behavior-Based Architecture to Model Locomotion for Six-Legged Robots
 84,Estimating the Center of Mass and the Angular Momentum Derivative for Legged Locomotion ' a Recursive Approach
 85,Fault-Tolerant Force Tracking for a Multi-Legged Robot
 86,Feedback MPC for Torque-Controlled Legged Robots
