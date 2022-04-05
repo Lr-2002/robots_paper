@@ -1,0 +1,2522 @@
+
+
+
+
+
+TY  - JOUR
+T1  - Optimization and learning for rough terrain legged locomotion
+AU  - Zucker, Matt
+AU  - Ratliff, Nathan
+AU  - Stolle, Martin
+AU  - Chestnutt, Joel
+AU  - Bagnell, J Andrew
+AU  - Atkeson, Christopher G
+AU  - Kuffner, James
+Y1  - 2011/01/25
+PY  - 2011
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910392608
+DO  - 10.1177/0278364910392608
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 175
+EP  - 191
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - We present a novel approach to legged locomotion over rough terrain that is thoroughly rooted in optimization. This approach relies on a hierarchy of fast, anytime algorithms to plan a set of footholds, along with the dynamic body motions required to execute them. Components within the planning framework coordinate to exchange plans, cost-to-go estimates, and ?certificates? that ensure the output of an abstract high-level planner can be realized by lower layers of the hierarchy. The burden of careful engineering of cost functions to achieve desired performance is substantially mitigated by a simple inverse optimal control technique. Robustness is achieved by real-time re-planning of the full trajectory, augmented by reflexes and feedback control. We demonstrate the successful application of our approach in guiding the LittleDog quadruped robot over a variety of types of rough terrain. Other novel aspects of our past research efforts include a variety of pioneering inverse optimal control techniques as well as a system for planning using arbitrary pre-recorded robot behavior.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910392608
+UR  - https://doi.org/10.1177/0278364910392608
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Characterization of frictional multi-legged equilibrium postures on uneven terrains
+AU  - Or, Yizhar
+AU  - Rimon, Elon
+Y1  - 2017/01/01
+PY  - 2017
+DA  - 2017/01/01
+N1  - doi: 10.1177/0278364916679719
+DO  - 10.1177/0278364916679719
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 105
+EP  - 128
+VL  - 36
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Quasistatic legged locomotion over uneven terrains requires characterization of the legged robot equilibrium postures as well as an understanding of the non-static motion modes that can develop at the contacts. This paper characterizes the frictional multi-legged equilibrium postures on a generic class called ?tame stances?, which satisfy a generalized support polygon principle. To characterize the equilibrium postures, the paper lumps the legged mechanism?s kinematic structure into a rigid body having a variable center of mass and maintaining the same contacts with the terrain. The equilibrium postures associated with a given set of contacts correspond to the locations of the center of mass at which the body is supported in static equilibrium by the same contacts under the influence of gravity. This paper thus characterizes the feasible equilibrium region of a rigid body having a variable center of mass and supported by multiple frictional contacts under the influence of gravity. The paper establishes that the feasible equilibrium region forms a convex set which has five types of boundary curves. These boundary curves are formulated analytically, illustrated with graphical examples, and associated with the onset of five non-static motion modes at the contacts. The paper also compares the analytical results against experimental measurements conducted on a legged mechanism prototype.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916679719
+UR  - https://doi.org/10.1177/0278364916679719
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Motion Planning for Legged Robots on Varied Terrain
+AU  - Hauser, Kris
+AU  - Bretl, Timothy
+AU  - Latombe, Jean-Claude
+AU  - Harada, Kensuke
+AU  - Wilcox, Brian
+Y1  - 2008/11/01
+PY  - 2008
+DA  - 2008/11/01
+N1  - doi: 10.1177/0278364908098447
+DO  - 10.1177/0278364908098447
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1325
+EP  - 1349
+VL  - 27
+IS  - 11-12
+PB  - SAGE Publications Ltd STM
+N2  - In this paper we study the quasi-static motion of large legged robots that have many degrees of freedom. While gaited walking may suffice on easy ground, rough and steep terrain requires unique sequences of footsteps and postural adjustments specifically adapted to the terrain's local geometric and physical properties. In this paper we present a planner that computes these motions by combining graph searching to generate a sequence of candidate footfalls with probabilistic sample-based planning to generate continuous motions that reach these footfalls. To improve motion quality, the probabilistic planner derives its sampling strategy from a small set of motion primitives that have been generated offline. The viability of this approach is demonstrated in simulation for the six-legged Lunar vehicle ATHLETE and the humanoid HRP-2 on several example terrains, including one that requires both hand and foot contacts and another that requires rappelling.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908098447
+UR  - https://doi.org/10.1177/0278364908098447
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - A hybrid dynamical extension of averaging and its application to the analysis of legged gait stability
+AU  - De, Avik
+AU  - Burden, Samuel A
+AU  - Koditschek, Daniel E
+Y1  - 2018/02/01
+PY  - 2018
+DA  - 2018/02/01
+N1  - doi: 10.1177/0278364918756498
+DO  - 10.1177/0278364918756498
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 266
+EP  - 286
+VL  - 37
+IS  - 2-3
+PB  - SAGE Publications Ltd STM
+N2  - We extend a smooth dynamical systems averaging technique to a class of hybrid systems with a limit cycle that is particularly relevant to the synthesis of stable legged gaits. After introducing a definition of hybrid averageability sufficient to recover the classical result, we illustrate its applicability by analysis of first a one-legged and then a two-legged hopping model. These abstract systems prepare the ground for the analysis of a significantly more complicated two legged model: a new template for quadrupedal running to be analyzed and implemented on a physical robot in a companion paper. We conclude with some rather more speculative remarks concerning the prospects for further extension and generalization of these ideas.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364918756498
+UR  - https://doi.org/10.1177/0278364918756498
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Capturability-based analysis and control of legged locomotion, Part 1: Theory and application to three simple gait models
+AU  - Koolen, Twan
+AU  - de Boer, Tomas
+AU  - Rebula, John
+AU  - Goswami, Ambarish
+AU  - Pratt, Jerry
+Y1  - 2012/07/03
+PY  - 2012
+DA  - 2012/08/01
+N1  - doi: 10.1177/0278364912452673
+DO  - 10.1177/0278364912452673
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1094
+EP  - 1113
+VL  - 31
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - This two-part paper discusses the analysis and control of legged locomotion in terms of N-step capturability: the ability of a legged system to come to a stop without falling by taking N or fewer steps. We consider this ability to be crucial to legged locomotion and a useful, yet not overly restrictive criterion for stability. In this part (Part 1), we introduce a theoretical framework for assessing N-step capturability. This framework is used to analyze three simple models of legged locomotion. All three models are based on the 3D Linear Inverted Pendulum Model. The first model relies solely on a point foot step location to maintain balance, the second model adds a finite-sized foot, and the third model enables the use of centroidal angular momentum by adding a reaction mass. We analyze how these mechanisms influence N-step capturability, for any N > 0. Part 2 will show that these results can be used to control a humanoid robot.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912452673
+UR  - https://doi.org/10.1177/0278364912452673
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Multistable phase regulation for robust steady and transitional legged gaits
+AU  - Haynes, GC
+AU  - Rizzi, AA
+AU  - Koditschek, DE
+Y1  - 2012/09/20
+PY  - 2012
+DA  - 2012/12/01
+N1  - doi: 10.1177/0278364912458463
+DO  - 10.1177/0278364912458463
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1712
+EP  - 1738
+VL  - 31
+IS  - 14
+PB  - SAGE Publications Ltd STM
+N2  - We develop robust methods that allow the specification, control, and transition of a multi-legged robot?s stepping pattern, its ?gait?, during active locomotion over natural terrain. Resulting gaits emerge through the introduction of controllers that impose appropriately placed repellors within the space of gaits, the torus of relative leg phases, thereby mitigating against dangerous patterns of leg timing. Moreover, these repellors are organized with respect to a natural cellular decomposition of gait space and result in limit cycles with associated basins that are well characterized by these cells, thus conferring a symbolic character upon the overall behavioral repertoire. These ideas are particularly applicable to four- and six-legged robots, for which a large variety of interesting and useful (and, in many cases, familiar) gaits exist, and whose tradeoffs between speed and reliability motivate the desire for transitioning between them during active locomotion. We provide an empirical instance of this gait regulation scheme by application to a climbing hexapod, whose ?physical layer? sensor-feedback control requires adequate grasp of a climbing surface but whose closed-loop control perturbs the robot from its desired gait. We document how the regulation scheme secures the desired gait and permits operator selection of different gaits as required during active climbing on challenging surfaces.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912458463
+UR  - https://doi.org/10.1177/0278364912458463
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Legless Locomotion: A Novel Locomotion Technique for Legged Robots
+AU  - Balasubramanian, Ravi
+AU  - Rizzi, Alfred A.
+AU  - Mason, Matthew T.
+Y1  - 2008/05/01
+PY  - 2008
+DA  - 2008/05/01
+N1  - doi: 10.1177/0278364908091023
+DO  - 10.1177/0278364908091023
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 575
+EP  - 594
+VL  - 27
+IS  - 5
+PB  - SAGE Publications Ltd STM
+N2  - We present a novel locomotion strategy called legless locomotion that allows a round-bodied legged robot to locomote approximately when it is high-centered. Typically, a high-centered robot is stuck since the robot's legs do not touch the ground. Legless locomotion uses the legs as a reaction mass to set up oscillatory body rotations which when coupled with ground contact gradually translate the robot. Legless locomotion's continuous dynamics differs from previously studied locomotion methods because of the simultaneous interaction of gravity-induced oscillations, a configuration-dependent system inertia, and non-holonomic contact constraints. This paper employs simple models to capture the complex dynamics and uses the intuition developed from the models to develop gaits that provide planar accessibility. We also present a quantification of leg less locomotion's properties using simulations and motion-capture experiments.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908091023
+UR  - https://doi.org/10.1177/0278364908091023
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Capturability-based analysis and control of legged locomotion, Part 2: Application to M2V2, a lower-body humanoid
+AU  - Pratt, Jerry
+AU  - Koolen, Twan
+AU  - de Boer, Tomas
+AU  - Rebula, John
+AU  - Cotton, Sebastien
+AU  - Carff, John
+AU  - Johnson, Matthew
+AU  - Neuhaus, Peter
+Y1  - 2012/08/06
+PY  - 2012
+DA  - 2012/09/01
+N1  - doi: 10.1177/0278364912452762
+DO  - 10.1177/0278364912452762
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1117
+EP  - 1133
+VL  - 31
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - This two-part paper discusses the analysis and control of legged locomotion in terms of N-step capturability: the ability of a legged system to come to a stop without falling by taking N or fewer steps. We consider this ability to be crucial to legged locomotion and a useful, yet not overly restrictive criterion for stability. Part 1 introduced the N-step capturability framework and showed how to obtain capture regions and control sequences for simplified gait models. In Part 2, we describe an algorithm that uses these results as approximations to control a humanoid robot. The main contributions of this part are (1) step location adjustment using the 1-step capture region, (2) novel instantaneous capture point control strategies, and 3) an experimental evaluation of the 1-step capturability margin. The presented algorithm was tested using M2V2, a 3D force-controlled bipedal robot with 12 actuated degrees of freedom in the legs, both in simulation and in physical experiments. The physical robot was able to recover from forward and sideways pushes of up to 21 Ns while balancing on one leg and stepping to regain balance. The simulated robot was able to recover from sideways pushes of up to 15 Ns while walking, and walked across randomly placed stepping stones.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912452762
+UR  - https://doi.org/10.1177/0278364912452762
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Trajectory Planning of a One-Legged Robot Performing a Stable Hop
+AU  - Wu, Ting-Ying
+AU  - Yeh, T.J.
+AU  - Hsu, Bing-Hung
+Y1  - 2011/01/19
+PY  - 2011
+DA  - 2011/07/01
+N1  - doi: 10.1177/0278364910385587
+DO  - 10.1177/0278364910385587
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1072
+EP  - 1091
+VL  - 30
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - In this paper, stable hopping of a one-legged, articulated robot with a flat foot is investigated. The robot has a special feature that before taking off, it goes through an underactuated phase in which the foot rotates about the unactuated toe on the ground. By having an underactuated phase, the robot can perform stable human-like hops with longer hopping distances. To devise a systematic trajectory design methodology for the robot, its dynamics was first derived, including the effects of ground-foot impact and hopping constraints. An optimization procedure is then proposed to plan the feasible actuated trajectories that not only meet performance requirements but also attain optimality with respect to the use of actuation energy. The hopping strategy and the planned trajectories are then verified by simulation and hardware implementation. Experiments indicate that the robot can perform stable hops with different hopping distances on level ground and can successfully hop up and down staircases.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910385587
+UR  - https://doi.org/10.1177/0278364910385587
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Ambiguous collision outcomes and sliding with infinite friction in models of legged systems
+AU  - Remy, C David
+Y1  - 2017/10/01
+PY  - 2017
+DA  - 2017/10/01
+N1  - doi: 10.1177/0278364917731820
+DO  - 10.1177/0278364917731820
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1252
+EP  - 1267
+VL  - 36
+IS  - 12
+PB  - SAGE Publications Ltd STM
+N2  - This work explores the collision process at foot contact in models of legged robots. In particular, we highlight that for legged systems the widely used assumption of no sliding of the contact points can yield inconsistent outcomes. For certain contact configurations and system parameters, neither the assumption of lift-off of the trailing foot nor the assumption that it stays fixed on the ground yield valid solutions. The foot will slide, even if an infinite coefficient of friction is assumed. In a related effect, we present configurations in which the solution of the collision process is ambiguous. These behaviors are examined for the models of a minimalistic biped, a passive dynamic walker, and the five-link bipedal robot RAMone. The paper provides background for these non-intuitive behaviors and investigates the influence of system parameters onto the collision behavior of a passive dynamic walker. By studying bipedal models that range from minimalistic to physically accurate, this paper establishes a bridge between the theoretical study of unilateral contact in multibody dynamic simulations and the application of these simulation methods in the modeling of ground contact in actual legged systems.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917731820
+UR  - https://doi.org/10.1177/0278364917731820
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Foot–terrain interaction mechanics for legged robots: Modeling and experimental validation
+AU  - Ding, Liang
+AU  - Gao, Haibo
+AU  - Deng, Zongquan
+AU  - Song, Jianhu
+AU  - Liu, Yiqun
+AU  - Liu, Guangjun
+AU  - Iagnemma, Karl
+Y1  - 2013/10/21
+PY  - 2013
+DA  - 2013/11/01
+N1  - doi: 10.1177/0278364913498122
+DO  - 10.1177/0278364913498122
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1585
+EP  - 1606
+VL  - 32
+IS  - 13
+PB  - SAGE Publications Ltd STM
+N2  - Contact mechanics plays an important role in the design, performance analysis, simulation, and control of legged robots. The Hunt?Crossley model and the Coulomb friction model are often used as black-box models with limited consideration of the properties of the terrain and the feet. This paper analyzes the foot?terrain interaction based on the knowledge of terramechanics and reveals the relationship between the parameters of the conventional models and the terramechanics models. The proposed models are derived in three categories: deformable foot on hard terrain, hard foot on deformable terrain, and deformable foot on deformable terrain. A novel model of tangential forces as the function of displacement is proposed on the basis of an in-depth understanding of the terrain properties. Methods for identifying the model parameters are also developed. Extensive foot?soil interaction experiments have been carried out, and the experimental results validate the high fidelity of the derived models.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913498122
+UR  - https://doi.org/10.1177/0278364913498122
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Towards versatile legged robots through active impedance control
+AU  - Semini, Claudio
+AU  - Barasuol, Victor
+AU  - Boaventura, Thiago
+AU  - Frigerio, Marco
+AU  - Focchi, Michele
+AU  - Caldwell, Darwin G.
+AU  - Buchli, Jonas
+Y1  - 2015/05/18
+PY  - 2015
+DA  - 2015/06/01
+N1  - doi: 10.1177/0278364915578839
+DO  - 10.1177/0278364915578839
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1003
+EP  - 1020
+VL  - 34
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - Robots with legs and arms have the potential to support humans in dangerous, dull or dirty tasks. A major motivation behind research on such robots is their potential versatility. However, these robots come at a high price in mechanical and control complexity. Hence, until they can demonstrate a clear advantage over their simpler counterparts, robots with arms and legs will not fulfill their true potential. In this paper, we discuss the opportunities for versatile robots that arise by actively controlling the mechanical impedance of joints and particularly legs. In contrast to passive elements such as springs, active impedance is achieved by torque-controlled joints allowing real-time adjustment of stiffness and damping. Adjustable stiffness and damping in real-time is a fundamental building block towards versatility. Experiments with our 80?kg hydraulic quadruped robot HyQ demonstrate that active impedance alone (i.e. no springs in the structure) can successfully emulate passively compliant elements during highly dynamic locomotion tasks (running, jumping and hopping); and that no springs are needed to protect the actuation system. Here we present results of a flying trot, also referred to as a running trot. To the best of the authors? knowledge this is the first time a flying trot has been successfully implemented on a robot without passive elements such as springs. A critical discussion on the pros and cons of active impedance concludes the paper. This article is an extension of our previous work presented at the International Symposium on Robotics Research (ISRR) 2013.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364915578839
+UR  - https://doi.org/10.1177/0278364915578839
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Identifiability and identification of inertial parameters using the underactuated base-link dynamics for legged multibody systems
+AU  - Ayusawa, Ko
+AU  - Venture, Gentiane
+AU  - Nakamura, Yoshihiko
+Y1  - 2013/09/02
+PY  - 2013
+DA  - 2014/03/01
+N1  - doi: 10.1177/0278364913495932
+DO  - 10.1177/0278364913495932
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 446
+EP  - 468
+VL  - 33
+IS  - 3
+PB  - SAGE Publications Ltd STM
+N2  - In this paper we study the dynamics of multibody systems with the base not permanently fixed to the inertial frame, or more specifically legged systems such as humanoid robots and humans. The issue is to be approached in terms of the identification theory developed in the field of robotics. The under-actuated base-link which characterizes the dynamics of legged systems is the focus of this work. The useful mechanical feature to analyze the dynamics of legged system is proven: the set of inertial parameters appearing in the equation of motion of the under-actuated base is equivalent to the set in the equations of the whole body. In particular, when no external force acts on the system, all of the parameters in the set except the total mass are generally identifiable only from the observation of the free-flying motion. We also propose a method to identify the inertial parameters based on the dynamics of the under-actuated base. The method does not require the measurement of the joint torques. Neither the joint frictions nor the actuator dynamics need to be considered. Even when the system has no external reaction force, the method is still applicable. The method has been tested on both a humanoid robot and a human, and the experimental results are shown.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913495932
+UR  - https://doi.org/10.1177/0278364913495932
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Shortest paths for finned, winged, legged, and wheeled vehicles with side-looking sensors
+AU  - Salaris, Paolo
+AU  - Pallottino, Lucia
+AU  - Bicchi, Antonio
+Y1  - 2012/05/11
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1177/0278364912446005
+DO  - 10.1177/0278364912446005
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 997
+EP  - 1017
+VL  - 31
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - Sensor-guided robotic locomotion in different media often takes inspiration from natural examples, e.g. from fishes, birds, and humans for underwater, aerial, or walking robots, respectively. Interestingly, several naturalistic observations show that even very different species exhibit some similarities in their locomotion patterns: a notable one perhaps being the spiraling nature of paths that in some cases can be observed in sensory-guided tasks. As often conjectured in naturalistic studies, a common optimality principle may underpin such motion behaviors. We show in a robotics framework that spiraling motions appear in the solution of the problem of minimum path length. In particular, we study optimal paths for a simple model of finned, winged, and legged robotic vehicles, under different constraints on the field-of-view of the available sensory inputs. After showing that logarithmic spirals are indeed extremals of a sensory-constrained shortest-path problem, we provide a complete synthesis of the optimal control for different robotic vehicles. Application of these results to robotics can reduce the length of paths to be followed by underwater, aerial, or legged robots to reach targets in their environment. The work also provides some interesting, although preliminary, insights into how sensory field-of-view limitations may influence motion patterns in natural systems.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912446005
+UR  - https://doi.org/10.1177/0278364912446005
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Morphologically induced stability on an underwater legged robot with a deformable body
+AU  - Picardi, Giacomo
+AU  - Hauser, Helmut
+AU  - Laschi, Cecilia
+AU  - Calisti, Marcello
+Y1  - 2019/03/29
+PY  - 2019
+DA  - 2021/01/01
+N1  - doi: 10.1177/0278364919840426
+DO  - 10.1177/0278364919840426
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 435
+EP  - 448
+VL  - 40
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - For robots to navigate successfully in the real world, unstructured environment adaptability is a prerequisite. Although this is typically implemented within the control layer, there have been recent proposals of adaptation through a morphing of the body. However, the successful demonstration of this approach has mostly been theoretical and in simulations thus far. In this work we present an underwater hopping robot that features a deformable body implemented as a deployable structure that is covered by a soft skin for which it is possible to manually change the body size without altering any other property (e.g. buoyancy or weight). For such a system, we show that it is possible to induce a stable hopping behavior instead of a fall, by just increasing the body size. We provide a mathematical model that describes the hopping behavior of the robot under the influence of shape-dependent underwater contributions (drag, buoyancy, and added mass) in order to analyze and compare the results obtained. Moreover, we show that for certain conditions, a stable hopping behavior can only be obtained through changing the morphology of the robot as the controller (i.e. actuator) would already be working at maximum capacity. The presented work demonstrates that, through the exploitation of shape-dependent forces, the dynamics of a system can be modified through altering the morphology of the body to induce a desirable behavior and, thus, a morphological change can be an effective alternative to the classic control.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919840426
+UR  - https://doi.org/10.1177/0278364919840426
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Placing and scheduling many depth sensors for wide coverage and efficient mapping in versatile legged robots
+AU  - Brandão, Martim
+AU  - Figueiredo, Rui
+AU  - Takagi, Kazuki
+AU  - Bernardino, Alexandre
+AU  - Hashimoto, Kenji
+AU  - Takanishi, Atsuo
+Y1  - 2019/12/23
+PY  - 2019
+DA  - 2020/03/01
+N1  - doi: 10.1177/0278364919891776
+DO  - 10.1177/0278364919891776
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 431
+EP  - 460
+VL  - 39
+IS  - 4
+PB  - SAGE Publications Ltd STM
+N2  - This article tackles the problem of designing 3D perception systems for robots with high visual requirements, such as versatile legged robots capable of different locomotion styles. In order to guarantee high visual coverage in varied conditions (e.g., biped walking, quadruped walking, ladder climbing), such robots need to be equipped with a large number of sensors, while at the same time managing the computational requirements that arise from such a system. We tackle this problem at both levels: sensor placement (how many sensors to install on the robot and where) and run-time acquisition scheduling under computational constraints (not all sensors can be acquired and processed at the same time). Our first contribution is a methodology for designing perception systems with a large number of depth sensors scattered throughout the links of a robot, using multi-objective optimization for optimal trade-offs between visual coverage and the number of sensors. We estimate the Pareto front of these objectives through evolutionary optimization, and implement a solution on a real legged robot. Our formulation includes constraints on task-specific coverage and design symmetry, which lead to reliable coverage and fast convergence of the optimization problem. Our second contribution is an algorithm for lowering the computational burden of mapping with such a high number of sensors, formulated as an information-maximization problem with several sampling techniques for speed. Our final system uses 20 depth sensors scattered throughout the robot, which can either be acquired simultaneously or optimally scheduled for low CPU usage while maximizing mapping quality. We show that, when compared with state-of-the-art robotic platforms, our system has higher coverage across a higher number of tasks, thus being suitable for challenging environments and versatile robots. We also demonstrate that our scheduling algorithm allows higher mapping performance to be obtained than with naïve and state-of-the-art methods by leveraging on measures of information gain and self-occlusion at low computational costs.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919891776
+UR  - https://doi.org/10.1177/0278364919891776
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Stereo-vision-based navigation of a six-legged walking robot in unknown rough terrain
+AU  - Stelzer, Annett
+AU  - Hirschmüller, Heiko
+AU  - Görner, Martin
+Y1  - 2012/02/27
+PY  - 2012
+DA  - 2012/04/01
+N1  - doi: 10.1177/0278364911435161
+DO  - 10.1177/0278364911435161
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 381
+EP  - 402
+VL  - 31
+IS  - 4
+PB  - SAGE Publications Ltd STM
+N2  - In this paper we present a visual navigation algorithm for the six-legged walking robot DLR Crawler in rough terrain. The algorithm is based on stereo images from which depth images are computed using the semi-global matching (SGM) method. Further, a visual odometry is calculated along with an error measure. Pose estimates are obtained by fusing inertial data with relative leg odometry and visual odometry measurements using an indirect information filter. The visual odometry error measure is used in the filtering process to put lower weights on erroneous visual odometry data, hence, improving the robustness of pose estimation. From the estimated poses and the depth images, a dense digital terrain map is created by applying the locus method. The traversability of the terrain is estimated by a plane fitting approach and paths are planned using a D* Lite planner taking the traversability of the terrain and the current motion capabilities of the robot into account. Motion commands and the traversability measures of the upcoming terrain are sent to the walking layer of the robot so that it can choose an appropriate gait for the terrain. Experimental results show the accuracy of the navigation algorithm and its robustness against visual disturbances.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364911435161
+UR  - https://doi.org/10.1177/0278364911435161
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Selecting gaits for economical locomotion of legged robots
+AU  - Xi, Weitao
+AU  - Yesilevskiy, Yevgeniy
+AU  - Remy, C. David
+Y1  - 2015/11/03
+PY  - 2015
+DA  - 2016/08/01
+N1  - doi: 10.1177/0278364915612572
+DO  - 10.1177/0278364915612572
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1140
+EP  - 1154
+VL  - 35
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - This paper explores the benefits of using multiple gaits in a single robot. Inspired by nature, where humans and animals use different gaits to increase their energetic economy, we analyzed how increasing speed affects the choice of gait, and how the choice of gait influences optimal speed. To this end, we used optimal control as a tool to identify motions that minimize the cost of transport of two detailed models: a planar biped and a planar quadruped. Both of these models are actuated with high compliance series elastic actuators that enable a rich set of natural dynamics. These models have damping in their springs, feet with mass, and realistic limitations on actuator torques and velocities. They therefore serve as an intermediary between past simpler models and hardware. We discovered optimal motions with an established multiple shooting implementation that relies on pre-defined contact sequences, and with a direct collocation implementation in which the footfall pattern was an outcome of the optimization. Both algorithms confirmed findings from biology. For both models, changing gaits as speed varies leads to greatly increased energetic economy. For bipeds, the optimal gaits were walking at low speeds, grounded running at intermediate speeds, and running at high speeds. For quadrupeds, the optimal gaits were four-beat walking at low speeds and trotting at intermediate speeds. At high speeds, galloping and trotting were the best gaits, with nearly equal performance. We found that the transition between gaits was primarily driven by damping losses and negative actuator work, with collisions playing a relatively small role.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364915612572
+UR  - https://doi.org/10.1177/0278364915612572
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - The LittleDog robot
+AU  - Murphy, Michael P.
+AU  - Saunders, Aaron
+AU  - Moreira, Cassie
+AU  - Rizzi, Alfred A.
+AU  - Raibert, Marc
+Y1  - 2010/12/07
+PY  - 2010
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910387457
+DO  - 10.1177/0278364910387457
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 145
+EP  - 149
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - LittleDog is a small four-legged robot designed for research on legged locomotion. The LittleDog platform was designed by Boston Dynamics with funding from DARPA to enable rapid advances in the state of the art of rough-terrain locomotion algorithms. In addition to providing a fleet of 12 robots with baseline software and development tools, LittleDog served as a cross-team common platform that allowed direct comparison of results across multiple research teams. Here we report the details of this robotic system.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910387457
+UR  - https://doi.org/10.1177/0278364910387457
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - The Stanford LittleDog: A learning and rapid replanning approach to quadruped locomotion
+AU  - Zico Kolter, J.
+AU  - Ng, Andrew Y
+Y1  - 2011/01/25
+PY  - 2011
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910390537
+DO  - 10.1177/0278364910390537
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 150
+EP  - 174
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - Legged robots have the potential to navigate a wide variety of terrain that is inaccessible to wheeled vehicles. In this paper we consider the planning and control tasks of navigating a quadruped robot over challenging terrain, including terrain that it has not seen until run-time. We present a software architecture that makes use of both static and dynamic gaits, as well as specialized dynamic maneuvers, to accomplish this task. Throughout the paper we highlight two themes that have been central to our approach: (1) the prevalent use of learning algorithms, and (2) a focus on rapid recovery and replanning techniques; we present several novel methods and algorithms that we developed for the quadruped and that illustrate these two themes. We evaluate the performance of these different methods, and also present and discuss the performance of our system on the official Learning Locomotion tests.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910390537
+UR  - https://doi.org/10.1177/0278364910390537
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - An overview of the Defense Advanced Research Projects Agency’s Learning Locomotion program
+AU  - Pippine, James
+AU  - Hackett, Douglas
+AU  - Watson, Adam
+Y1  - 2010/11/12
+PY  - 2010
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910387681
+DO  - 10.1177/0278364910387681
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 141
+EP  - 144
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - In November of 2005, the Defense Advanced Research Projects Agency initiated a new robotics program, Learning Locomotion, designed to solve some of the key outstanding issues. The expectation was that a combination of machine learning techniques and smart development would accelerate the pace of making autonomous legged systems robust and useful.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910387681
+UR  - https://doi.org/10.1177/0278364910387681
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Bounding on rough terrain with the LittleDog robot
+AU  - Shkolnik, Alexander
+AU  - Levashov, Michael
+AU  - Manchester, Ian R.
+AU  - Tedrake, Russ
+Y1  - 2010/12/07
+PY  - 2010
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910388315
+DO  - 10.1177/0278364910388315
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 192
+EP  - 215
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - A motion planning algorithm is described for bounding over rough terrain with the LittleDog robot. Unlike walking gaits, bounding is highly dynamic and cannot be planned with quasi-steady approximations. LittleDog is modeled as a planar five-link system, with a 16-dimensional state space; computing a plan over rough terrain in this high-dimensional state space that respects the kinodynamic constraints due to underactuation and motor limits is extremely challenging. Rapidly Exploring Random Trees (RRTs) are known for fast kinematic path planning in high-dimensional configuration spaces in the presence of obstacles, but search efficiency degrades rapidly with the addition of challenging dynamics. A computationally tractable planner for bounding was developed by modifying the RRT algorithm by using: (1) motion primitives to reduce the dimensionality of the problem; (2) Reachability Guidance, which dynamically changes the sampling distribution and distance metric to address differential constraints and discontinuous motion primitive dynamics; and (3) sampling with a Voronoi bias in a lower-dimensional ?task space? for bounding. Short trajectories were demonstrated to work on the robot, however open-loop bounding is inherently unstable. A feedback controller based on transverse linearization was implemented, and shown in simulation to stabilize perturbations in the presence of noise and time delays.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910388315
+UR  - https://doi.org/10.1177/0278364910388315
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Comprehensive summary of the Institute for Human and Machine Cognition’s                 experience with LittleDog
+AU  - Neuhaus, Peter D
+AU  - Pratt, Jerry E
+AU  - Johnson, Matthew J
+Y1  - 2011/01/25
+PY  - 2011
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910390538
+DO  - 10.1177/0278364910390538
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 216
+EP  - 235
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - We discuss the main issues and challenges with quadrupedal locomotion over rough terrain in the context of the Defense Advanced Research Projects Agency?s Learning Locomotion program. We present our controller for the LittleDog platform, which allows for continuous transition between a static crawl gait and a dynamic trot gait depending on the roughness of the terrain. We provide detailed descriptions for some of our key algorithm components, such as a fast footstep planner for rough terrain, a body pose finder for a given support polygon, and a new type of parameterized gait. We present the results of our algorithm, which proved successful in the program, crossing all 10 terrain boards on the final test at an average speed of 11.2 cm/s. We conclude with a discussion on the applicability of this work for platforms other than LittleDog and in environments other than the Learning Locomotion designed tests.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910390538
+UR  - https://doi.org/10.1177/0278364910390538
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Quantifying disturbance rejection of SLIP-like running systems
+AU  - Miller, Bruce
+AU  - Schmitt, John
+AU  - Clark, Jonathan E
+Y1  - 2012/03/28
+PY  - 2012
+DA  - 2012/04/01
+N1  - doi: 10.1177/0278364912439613
+DO  - 10.1177/0278364912439613
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 573
+EP  - 587
+VL  - 31
+IS  - 5
+PB  - SAGE Publications Ltd STM
+N2  - The speed and maneuverability at which legged animals can travel across rough and cluttered landscapes has provided inspiration for the development of legged robots with similar capabilities. Researchers have developed a number of robots that can run over rough terrain, but there is currently no universally accepted measure for stability in an unstructured environment. This paper considers the effectiveness of a number of stability metrics in predicting the disturbance-rejection behavior of three spring-loaded inverted pendulum (SLIP)-like systems ranging from simple reduced-order models to a one-legged mechanical hopping robot. We show that the gait stability norm utilizing leg-centric indicators and a two-step decay ratio utilizing body-centric indicators provide the best correlation between step response behavior and how the systems perform when running over unknown, uneven terrain. By providing a cross-platform stability comparison, this paper facilitates the development and evaluation of robots and control schemes, such as the active energy removal approach utilized in this paper, that aim to improve the stability of running systems.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912439613
+UR  - https://doi.org/10.1177/0278364912439613
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Analytic Characterization of a Class of Three-contact Frictional Equilibrium Postures in Three-dimensional Gravitational Environments
+AU  - Or, Yizhar
+AU  - Rimon, Elon
+Y1  - 2009/09/28
+PY  - 2009
+DA  - 2010/01/01
+N1  - doi: 10.1177/0278364909347783
+DO  - 10.1177/0278364909347783
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 3
+EP  - 22
+VL  - 29
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Quasistatic legged locomotion over uneven terrains requires characterization of the mechanism?s feasible equilibrium postures. This paper characterizes the feasible equilibrium postures of mechanisms supported by three frictional point contacts in a three-dimensional gravitational environment, for a subclass of contact arrangements, calledtame, for which the friction cones lie above the plane spanned by the contacts. The kinematic structure of the mechanism is lumped into a single rigid body ? having the same contacts with the environment and a variable center of mass. The equilibrium postures associated with a given set of contacts become the center-of-mass locations of ? that maintain a feasible equilibrium with respect to gravity. The paper establishes the relations between the feasible equilibrium region and the classical support polygon principle. For tame 3-contact arrangements, the paper identifies and characterizes geometrically three types of boundary curves of the feasible equilibrium region, where two of them are obtained is closed-from, and the third is given implicitly as a solution of a set of nonlinear equations, which can be traced numerically. The three types of boundary curves are then associated with the onset of three different modes of non-static contact motions. Finally, the paper reports on experimental results that verify the theoretical predictions by using a 3-legged prototype.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909347783
+UR  - https://doi.org/10.1177/0278364909347783
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Learning, planning, and control for quadruped locomotion over challenging                 terrain
+AU  - Kalakrishnan, Mrinal
+AU  - Buchli, Jonas
+AU  - Pastor, Peter
+AU  - Mistry, Michael
+AU  - Schaal, Stefan
+Y1  - 2010/11/12
+PY  - 2010
+DA  - 2011/02/01
+N1  - doi: 10.1177/0278364910388677
+DO  - 10.1177/0278364910388677
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 236
+EP  - 258
+VL  - 30
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - We present a control architecture for fast quadruped locomotion over rough terrain. We approach the problem by decomposing it into many sub-systems, in which we apply state-of-the-art learning, planning, optimization, and control techniques to achieve robust, fast locomotion. Unique features of our control strategy include: (1) a system that learns optimal foothold choices from expert demonstration using terrain templates, (2) a body trajectory optimizer based on the Zero-Moment Point (ZMP) stability criterion, and (3) a floating-base inverse dynamics controller that, in conjunction with force control, allows for robust, compliant locomotion over unperceived obstacles. We evaluate the performance of our controller by testing it on the LittleDog quadruped robot, over a wide variety of rough terrains of varying difficulty levels. The terrain that the robot was tested on includes rocks, logs, steps, barriers, and gaps, with obstacle sizes up to the leg length of the robot. We demonstrate the generalization ability of this controller by presenting results from testing performed by an independent external test team on terrain that has never been shown to us.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910388677
+UR  - https://doi.org/10.1177/0278364910388677
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Multi-modal Motion Planning in Non-expansive Spaces
+AU  - Hauser, Kris
+AU  - Latombe, Jean-Claude
+Y1  - 2009/10/22
+PY  - 2009
+DA  - 2010/06/01
+N1  - doi: 10.1177/0278364909352098
+DO  - 10.1177/0278364909352098
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 897
+EP  - 915
+VL  - 29
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - Motion planning problems encountered in manipulation and legged locomotion have a distinctive multi-modal structure, where the space of feasible configurations consists of intersecting submanifolds, often of different dimensionalities. Such a feasible space does not possess expansiveness, a property that characterizes whether planning queries can be solved efficiently with traditional probabilistic roadmap (PRM) planners. In this paper we present a new PRM-based multi-modal planning algorithm for problems where the number of intersecting manifolds is finite. We also analyze the completeness properties of this algorithm. More specifically, we show that the algorithm converges quickly when each submanifold is individually expansive and establish a bound on the expected running time in that case. We also present an incremental variant of the algorithm that has the same convergence properties, but works better for problems with a large number of submanifolds by considering subsets of submanifolds likely to contain a solution path. These algorithms are demonstrated in geometric examples and in a legged locomotion planner.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909352098
+UR  - https://doi.org/10.1177/0278364909352098
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Optimal distribution of contact forces with inverse-dynamics control
+AU  - Righetti, Ludovic
+AU  - Buchli, Jonas
+AU  - Mistry, Michael
+AU  - Kalakrishnan, Mrinal
+AU  - Schaal, Stefan
+Y1  - 2013/01/28
+PY  - 2013
+DA  - 2013/03/01
+N1  - doi: 10.1177/0278364912469821
+DO  - 10.1177/0278364912469821
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 280
+EP  - 298
+VL  - 32
+IS  - 3
+PB  - SAGE Publications Ltd STM
+N2  - The development of legged robots for complex environments requires controllers that guarantee both high tracking performance and compliance with the environment. More specifically the control of the contact interaction with the environment is of crucial importance to ensure stable, robust and safe motions. In this contribution we develop an inverse-dynamics controller for floating-base robots under contact constraints that can minimize any combination of linear and quadratic costs in the contact constraints and the commands. Our main result is the exact analytical derivation of the controller. Such a result is particularly relevant for legged robots as it allows us to use torque redundancy to directly optimize contact interactions. For example, given a desired locomotion behavior, we can guarantee the minimization of contact forces to reduce slipping on difficult terrains while ensuring high tracking performance of the desired motion. The main advantages of the controller are its simplicity, computational efficiency and robustness to model inaccuracies. We present detailed experimental results on simulated humanoid and quadruped robots as well as a real quadruped robot. The experiments demonstrate that the controller can greatly improve the robustness of locomotion of the robots.1
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912469821
+UR  - https://doi.org/10.1177/0278364912469821
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Low-bandwidth reflex-based control for lower power walking: 65 km on a single battery charge
+AU  - Bhounsule, Pranav A.
+AU  - Cortell, Jason
+AU  - Grewal, Anoop
+AU  - Hendriksen, Bram
+AU  - Karssen, J. G. Daniël
+AU  - Paul, Chandana
+AU  - Ruina, Andy
+Y1  - 2014/06/12
+PY  - 2014
+DA  - 2014/09/01
+N1  - doi: 10.1177/0278364914527485
+DO  - 10.1177/0278364914527485
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1305
+EP  - 1321
+VL  - 33
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - No legged walking robot yet approaches the high reliability and the low power usage of a walking person, even on flat ground. Here we describe a simple robot which makes small progress towards that goal. Ranger is a knee-less four-legged ?bipedal? robot which is energetically and computationally autonomous, except for radio controlled steering. Ranger walked 65.2 km in 186,076 steps in about 31 h without being touched by a human with a total cost of transport [TCOT ≡ P/mgv ] of 0.28, similar to human?s TCOT of ≈ 0.3. The high reliability and low energy use were achieved by: (a) development of an accurate bench-test-based simulation; (b) development of an intuitively tuned nominal trajectory based on simple locomotion models; and (c) offline design of a simple reflex-based (that is, event-driven discrete feed-forward) stabilizing controller. Further, once we replaced the intuitively tuned nominal trajectory with a trajectory found from numerical optimization, but still using event-based control, we could further reduce the TCOT to 0.19. At TCOT?=?0.19, the robot?s total power of 11.5 W is used by sensors, processors and communications (45%), motor dissipation (≈34%) and positive mechanical work (≈21%). Ranger?s reliability and low energy use suggests that simplified implementation of offline trajectory optimization, stabilized by a low-bandwidth reflex-based controller, might lead to the energy-effective reliable walking of more complex robots.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364914527485
+UR  - https://doi.org/10.1177/0278364914527485
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Probabilistically valid stochastic extensions of deterministic models for systems with uncertainty
+AU  - Karydis, Konstantinos
+AU  - Poulakakis, Ioannis
+AU  - Sun, Jianxin
+AU  - Tanner, Herbert G.
+Y1  - 2015/05/28
+PY  - 2015
+DA  - 2015/09/01
+N1  - doi: 10.1177/0278364915576336
+DO  - 10.1177/0278364915576336
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1278
+EP  - 1295
+VL  - 34
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - Models capable of capturing and reproducing the variability observed in experimental trials can be valuable for planning and control in the presence of uncertainty. This paper reports on a new data-driven methodology that extends deterministic models to a stochastic regime and offers probabilistic guarantees of model fidelity. From an acceptable deterministic model, a stochastic one is generated, capable of capturing and reproducing uncertain system?environment interactions at given levels of fidelity. The reported approach combines methodological elements from probabilistic model validation and randomized algorithms, to simultaneously quantify the fidelity of a model and tune the distribution of random parameters in the corresponding stochastic extension, in order to reproduce the variability observed experimentally in the physical process of interest. The approach can be applied to an array of physical processes, the models of which may come in different forms, including differential equations; we demonstrate this point by considering examples from the areas of miniature legged robots and aerial vehicles.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364915576336
+UR  - https://doi.org/10.1177/0278364915576336
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Motion Analysis with Experimental Verification of the Hybrid Robot PEOPLER-II                 for Reversible Switch between Walk and Roll on Demand
+AU  - Okada, Tokuji
+AU  - Botelho, Wagner Tanaka
+AU  - Shimizu, Toshimi
+Y1  - 2009/10/13
+PY  - 2009
+DA  - 2010/08/01
+N1  - doi: 10.1177/0278364909348762
+DO  - 10.1177/0278364909348762
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1199
+EP  - 1221
+VL  - 29
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - We propose a newly renovated mobile robot PEOPLER-II (Perpendicularly Oriented Planetary Legged Robot), and addresses its motion analysis for switching its locomotion from leg-type to wheel-type and vice versa. For the leg-type locomotion, particularly in a transitional state of sitting or standing, we propose a control method based on minimization of the total energy cost using the distribution of the motor power payload in the hip and knee joints, in addition to the method of keeping the same payload factor. Also, we discuss robot configurations for switching between the two locomotion types by considering environmental factors such as walking gaits, ground inclination angle and robot?s traveling direction. Knee joint position of a pivotal foot determines knee ahead and knee behind gaits. In each switch, we check such characteristics as the hip joint rotation direction, robot center trajectory, and necessary total power in a practical point of use. Then we build three beneficial switching cycles aiming for moderate use of a motor, rider?s comfort, and power saving. Finally, we demonstrate the switching by considering the aim and verify that the results of the analysis become useful for enabling switching on demand.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909348762
+UR  - https://doi.org/10.1177/0278364909348762
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Fast interpolation and time-optimization with contact
+AU  - Hauser, Kris
+Y1  - 2014/08/01
+PY  - 2014
+DA  - 2014/08/01
+N1  - doi: 10.1177/0278364914527855
+DO  - 10.1177/0278364914527855
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1231
+EP  - 1250
+VL  - 33
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents a method for generating dynamically feasible, keyframe-interpolating motions for robots undergoing contact, such as in legged locomotion and manipulation. The first stage generates a twice-differentiable interpolating path that obeys kinematic contact constraints up to a user-specified tolerance. The second stage optimizes speeds along the path to minimize time while satisfying dynamic constraints. The method supports velocity, acceleration, and torque constraints, and polyhedral contact friction constraints at an arbitrary number of contact points. The method is numerically stable, and empirical running time is weakly linear in the number of degrees of freedom and polynomial in the time-domain grid resolution. Experiments demonstrate that full-body motions for robots with 100 degrees of freedom and dozens of contact points are calculated in seconds.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364914527855
+UR  - https://doi.org/10.1177/0278364914527855
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - An obstacle disturbance selection framework: emergent robot steady states under repeated collisions
+AU  - Qian, Feifei
+AU  - Koditschek, Daniel E
+Y1  - 2020/07/20
+PY  - 2020
+DA  - 2020/11/01
+N1  - doi: 10.1177/0278364920935514
+DO  - 10.1177/0278364920935514
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1549
+EP  - 1566
+VL  - 39
+IS  - 13
+PB  - SAGE Publications Ltd STM
+N2  - Natural environments are often filled with obstacles and disturbances. Traditional navigation and planning approaches normally depend on finding a traversable ?free space? for robots to avoid unexpected contact or collision. We hypothesize that with a better understanding of the robot?obstacle interactions, these collisions and disturbances can be exploited as opportunities to improve robot locomotion in complex environments. In this article, we propose a novel obstacle disturbance selection (ODS) framework with the aim of allowing robots to actively select disturbances to achieve environment-aided locomotion. Using an empirically characterized relationship between leg?obstacle contact position and robot trajectory deviation, we simplify the representation of the obstacle-filled physical environment to a horizontal-plane disturbance force field. We then treat each robot leg as a ?disturbance force selector? for prediction of obstacle-modulated robot dynamics. Combining the two representations provides analytical insights into the effects of gaits on legged traversal in cluttered environments. We illustrate the predictive power of the ODS framework by studying the horizontal-plane dynamics of a quadrupedal robot traversing an array of evenly-spaced cylindrical obstacles with both bounding and trotting gaits. Experiments corroborate numerical simulations that reveal the emergence of a stable equilibrium orientation in the face of repeated obstacle disturbances. The ODS reduction yields closed-form analytical predictions of the equilibrium position for different robot body aspect ratios, gait patterns, and obstacle spacings. We conclude with speculative remarks bearing on the prospects for novel ODS-based gait control schemes for shaping robot navigation in perturbation-rich environments.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364920935514
+UR  - https://doi.org/10.1177/0278364920935514
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Reachability-based control for the active SLIP model
+AU  - Piovan, Giulia
+AU  - Byl, Katie
+Y1  - 2015/02/05
+PY  - 2015
+DA  - 2015/03/01
+N1  - doi: 10.1177/0278364914552112
+DO  - 10.1177/0278364914552112
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 270
+EP  - 287
+VL  - 34
+IS  - 3
+PB  - SAGE Publications Ltd STM
+N2  - One of the key topics in robotics is legged locomotion, taking inspiration from walking and bouncing gaits of bipeds and quadrupeds. A fundamental tool for analyzing running and hopping is the spring loaded inverted pendulum (SLIP), thanks to its simplicity but also effectiveness in modeling bouncing gaits. Being completely passive, the SLIP model does not have the ability to modify its net energy, which, for example, can be a prohibitive obstacle when traveling on a terrain with varying heights. The actuated version of the SLIP model, the active SLIP, considered in this paper, includes a series actuator that allows energy variations via compressing or extending the spring. In this work, we investigate how different actuator motions can affect the system?s state, and we propose a control strategy, based on graphical and numerical studies of the reachability space, and updated throughout the stance phase, to drive the system to a desired state. We quantify its performance benefits, particularly in serving as an error-recovering method. The objective of our control strategy is not to replace any leg-placement approach proposed by other works, but rather to be paired with any other leg-placement or path planning method. Its main advantage is the ability to reduce the effects of sensing errors and disturbances happening at landing as well as during the stance phase.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364914552112
+UR  - https://doi.org/10.1177/0278364914552112
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Metastable Walking Machines
+AU  - Byl, Katie
+AU  - Tedrake, Russ
+Y1  - 2009/06/22
+PY  - 2009
+DA  - 2009/08/01
+N1  - doi: 10.1177/0278364909340446
+DO  - 10.1177/0278364909340446
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1040
+EP  - 1064
+VL  - 28
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - Legged robots that operate in the real world are inherently subject to stochasticity in their dynamics and uncertainty about the terrain. Owing to limited energy budgets and limited control authority, these ?disturbances? cannot always be canceled out with high-gain feedback. Minimally actuated walking machines subject to stochastic disturbances no longer satisfy strict conditions for limit-cycle stability; however, they can still demonstrate impressively long-living periods of continuous walking. Here, we employ tools from stochastic processes to examine the ?stochastic stability? of idealized rimless-wheel and compass-gait walking on randomly generated uneven terrain. Furthermore, we employ tools from numerical stochastic optimal control to design a controller for an actuated compass gait model which maximizes a measure of stochastic stability?the mean first-passage time?and compare its performance with a deterministic counterpart. Our results demonstrate that walking is well characterized as a metastable process, and that the stochastic dynamics of walking should be accounted for during control design in order to improve the stability of our machines.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909340446
+UR  - https://doi.org/10.1177/0278364909340446
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Contact-aided invariant extended Kalman filtering for robot state estimation
+AU  - Hartley, Ross
+AU  - Ghaffari, Maani
+AU  - Eustice, Ryan M
+AU  - Grizzle, Jessy W
+Y1  - 2020/01/16
+PY  - 2020
+DA  - 2020/03/01
+N1  - doi: 10.1177/0278364919894385
+DO  - 10.1177/0278364919894385
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 402
+EP  - 430
+VL  - 39
+IS  - 4
+PB  - SAGE Publications Ltd STM
+N2  - Legged robots require knowledge of pose and velocity in order to maintain stability and execute walking paths. Current solutions either rely on vision data, which is susceptible to environmental and lighting conditions, or fusion of kinematic and contact data with measurements from an inertial measurement unit (IMU). In this work, we develop a contact-aided invariant extended Kalman filter (InEKF) using the theory of Lie groups and invariant observer design. This filter combines contact-inertial dynamics with forward kinematic corrections to estimate pose and velocity along with all current contact points. We show that the error dynamics follows a log-linear autonomous differential equation with several important consequences: (a) the observable state variables can be rendered convergent with a domain of attraction that is independent of the system?s trajectory; (b) unlike the standard EKF, neither the linearized error dynamics nor the linearized observation model depend on the current state estimate, which (c) leads to improved convergence properties and (d) a local observability matrix that is consistent with the underlying nonlinear system. Furthermore, we demonstrate how to include IMU biases, add/remove contacts, and formulate both world-centric and robo-centric versions. We compare the convergence of the proposed InEKF with the commonly used quaternion-based extended Kalman filter (EKF) through both simulations and experiments on a Cassie-series bipedal robot. Filter accuracy is analyzed using motion capture, while a LiDAR mapping experiment provides a practical use case. Overall, the developed contact-aided InEKF provides better performance in comparison with the quaternion-based EKF as a result of exploiting symmetries present in system.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919894385
+UR  - https://doi.org/10.1177/0278364919894385
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Modular Reactive Neurocontrol for Biologically Inspired Walking Machines
+AU  - Manoonpong, Poramate
+AU  - Pasemann, Frank
+AU  - Roth, Hubert
+Y1  - 2007/03/01
+PY  - 2007
+DA  - 2007/03/01
+N1  - doi: 10.1177/0278364906076263
+DO  - 10.1177/0278364906076263
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 301
+EP  - 331
+VL  - 26
+IS  - 3
+PB  - SAGE Publications Ltd STM
+N2  - A neurocontroller is described which generates the basic locomotion and controls the sensor-driven behavior of a four-legged and a six-legged walking machine. The controller utilizes discrete-time neurodynamics, and is of modular structure. One module is for processing sensor signals, one is a neural oscillator network serving as a central pattern generator, and the third one is a so-called velocity regulating network. These modules are small and their structures and their functionalities are analyzable. In combination, they enable the machines to autonomously explore an unknown environment, to avoid obstacles, and to escape from corners or deadlock situations. The neurocontroller was developed and tested first using a physical simulation environment, and then it was successfully transferred to the physical walking machines. Locomotion is based on a gait where the diagonal legs are paired and move together, e.g. trot gait for the four-legged walking machine and tripod gait for the six-legged walking machine. The controller developed is universal in the sense that it can easily be adapted to different types of even-legged walking machines without changing the internal structure and its parameters.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364906076263
+UR  - https://doi.org/10.1177/0278364906076263
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Coordination of lateral body bending and leg movements for sprawled posture quadrupedal locomotion
+AU  - Chong, Baxi
+AU  - Aydin, Yasemin Ozkan
+AU  - Gong, Chaohui
+AU  - Sartoretti, Guillaume
+AU  - Wu, Yunjin
+AU  - Rieser, Jennifer M
+AU  - Xing, Haosen
+AU  - Schiebel, Perrin E
+AU  - Rankin, Jeffery W.
+AU  - Michel, Krijn B
+AU  - Nicieza, Alfredo
+AU  - Hutchinson, John R
+AU  - Goldman, Daniel I
+AU  - Choset, Howie
+Y1  - 2021/01/28
+PY  - 2021
+DA  - 2021/04/01
+N1  - doi: 10.1177/0278364921991158
+DO  - 10.1177/0278364921991158
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 747
+EP  - 763
+VL  - 40
+IS  - 4-5
+PB  - SAGE Publications Ltd STM
+N2  - Many animals generate propulsive forces by coordinating legs, which contact and push against the surroundings, with bending of the body, which can only indirectly influence these forces. Such body?leg coordination is not commonly employed in quadrupedal robotic systems. To elucidate the role of back bending during quadrupedal locomotion, we study a model system: the salamander, a sprawled-posture quadruped that uses lateral bending of the elongate back in conjunction with stepping of the limbs during locomotion. We develop a geometric approach that yields a low-dimensional representation of the body and limb contributions to the locomotor performance quantified by stride displacement. For systems where the damping forces dominate inertial forces, our approach offers insight into appropriate coordination patterns, and improves the computational efficiency of optimization techniques. In particular, we demonstrate effect of the lateral undulation coordinated with leg movement in the forward, rotational, and lateral directions of the robot motion. We validate the theoretical results using numerical simulations, and then successfully test these approaches using robophysical experiments on granular media, a model deformable, frictional substrate. Although our focus lies primarily on robotics, we also demonstrate that our tools can accurately predict optimal body bending of a living salamander Salamandra salamandra.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364921991158
+UR  - https://doi.org/10.1177/0278364921991158
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Shape-induced obstacle attraction and repulsion during dynamic locomotion
+AU  - Han, Yuanfeng
+AU  - Othayoth, Ratan
+AU  - Wang, Yulong
+AU  - Hsu, Chun-Cheng
+AU  - de la Tijera Obert, Rafael
+AU  - Francois, Evains
+AU  - Li, Chen
+Y1  - 2021/03/15
+PY  - 2021
+DA  - 2021/06/01
+N1  - doi: 10.1177/0278364921989372
+DO  - 10.1177/0278364921989372
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 939
+EP  - 955
+VL  - 40
+IS  - 6-7
+PB  - SAGE Publications Ltd STM
+N2  - Robots still struggle to dynamically traverse complex 3D terrain with many large obstacles, an ability required for many critical applications. Body?obstacle interaction is often inevitable and induces perturbation and uncertainty in motion that challenges closed-form dynamic modeling. Here, inspired by recent discovery of a terradynamic streamlined shape, we studied how two body shapes interacting with obstacles affect turning and pitching motions of an open-loop multi-legged robot and cockroaches during dynamic locomotion. With a common cuboidal body, the robot was attracted towards obstacles, resulting in pitching up and flipping-over. By contrast, with an elliptical body, the robot was repelled by obstacles and readily traversed. The animal displayed qualitatively similar turning and pitching motions induced by these two body shapes. However, unlike the cuboidal robot, the cuboidal animal was capable of escaping obstacle attraction and subsequent high pitching and flipping over, which inspired us to develop an empirical pitch-and-turn strategy for cuboidal robots. Considering the similarity of our self-propelled body?obstacle interaction with part?feeder interaction in robotic part manipulation, we developed a quasi-static potential energy landscape model to explain the dependence of dynamic locomotion on body shape. Our experimental and modeling results also demonstrated that obstacle attraction or repulsion is an inherent property of locomotor body shape and insensitive to obstacle geometry and size. Our study expands the concept and usefulness of terradynamic shapes for passive control of robot locomotion to traverse large obstacles using physical interaction. Our study is also a step in establishing an energy landscape approach to locomotor transitions.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364921989372
+UR  - https://doi.org/10.1177/0278364921989372
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Dynamic locomotion for passive-ankle biped robots and humanoids using whole-body locomotion control
+AU  - Kim, Donghyun
+AU  - Jorgensen, Steven Jens
+AU  - Lee, Jaemin
+AU  - Ahn, Junhyeok
+AU  - Luo, Jianwen
+AU  - Sentis, Luis
+Y1  - 2020/06/10
+PY  - 2020
+DA  - 2020/07/01
+N1  - doi: 10.1177/0278364920918014
+DO  - 10.1177/0278364920918014
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 936
+EP  - 956
+VL  - 39
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - Whole-body control (WBC) is a generic task-oriented control method for feedback control of loco-manipulation behaviors in humanoid robots. The combination of WBC and model-based walking controllers has been widely utilized in various humanoid robots. However, to date, the WBC method has not been employed for unsupported passive-ankle dynamic locomotion. As such, in this article, we devise a new WBC, dubbed the whole-body locomotion controller (WBLC), that can achieve experimental dynamic walking on unsupported passive-ankle biped robots. A key aspect of WBLC is the relaxation of contact constraints such that the control commands produce reduced jerk when switching foot contacts. To achieve robust dynamic locomotion, we conduct an in-depth analysis of uncertainty for our dynamic walking algorithm called the time-to-velocity-reversal (TVR) planner. The uncertainty study is fundamental as it allows us to improve the control algorithms and mechanical structure of our robot to fulfill the tolerated uncertainty. In addition, we conduct extensive experimentation for: (1) unsupported dynamic balancing (i.e., in-place stepping) with a six-degree-of-freedom biped, Mercury; (2) unsupported directional walking with Mercury; (3) walking over an irregular and slippery terrain with Mercury; and 4) in-place walking with our newly designed ten-DoF viscoelastic liquid-cooled biped, DRACO. Overall, the main contributions of this work are on: (a) achieving various modalities of unsupported dynamic locomotion of passive-ankle bipeds using a WBLC controller and a TVR planner; (b) conducting an uncertainty analysis to improve the mechanical structure and the controllers of Mercury; and (c) devising a whole-body control strategy that reduces movement jerk during walking.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364920918014
+UR  - https://doi.org/10.1177/0278364920918014
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - A bioinspired dynamical vertical climbing robot
+AU  - Lynch, Goran A
+AU  - Clark, Jonathan E
+AU  - Lin, Pei-Chun
+AU  - Koditschek, Daniel E
+Y1  - 2012/04/26
+PY  - 2012
+DA  - 2012/07/01
+N1  - doi: 10.1177/0278364912442096
+DO  - 10.1177/0278364912442096
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 974
+EP  - 996
+VL  - 31
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - This paper describes the inspiration for, design, analysis, and implementation of, and experimentation with the first dynamical vertical climbing robot. Biologists have proposed a pendulous climbing model that abstracts remarkable similarities in dynamical wall scaling behavior exhibited by radically different animal species. We numerically study a version of that pendulous climbing template dynamically scaled for applicability to utilitarian payloads with conventional electronics and actuation. This simulation study reveals that the incorporation of passive compliance can compensate for the scaled model?s poorer power density and scale disadvantages relative to biology. However, the introduction of additional dynamical elements raises new concerns about stability regarding both the power stroke and limb coordination schemes that we allay via mathematical analysis of further simplified models. Combining these numerical and analytical insights into a series of design prototypes, we document the correspondence of the various models to the scaled platforms and report that our final prototype climbs dynamically at vertical speeds up to 0.67 m/s (1.5 body-lengths per second, in rough agreement with our models? predictions).
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912442096
+UR  - https://doi.org/10.1177/0278364912442096
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Ground fluidization promotes rapid running of a lightweight robot
+AU  - Zhang, Tingnan
+AU  - Qian, Feifei
+AU  - Li, Chen
+AU  - Masarati, Pierangelo
+AU  - Hoover, Aaron M.
+AU  - Birkmeyer, Paul
+AU  - Pullin, Andrew
+AU  - Fearing, Ronald S.
+AU  - Goldman, Daniel I.
+Y1  - 2013/06/01
+PY  - 2013
+DA  - 2013/06/01
+N1  - doi: 10.1177/0278364913481690
+DO  - 10.1177/0278364913481690
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 859
+EP  - 869
+VL  - 32
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - We study the locomotor mechanics of a small, lightweight robot (DynaRoACH, 10?cm, 25?g) which can move on a granular substrate of 3?mm diameter glass particles at speeds up to 5 body length/s, approaching the performance of certain desert-dwelling animals. To reveal how the robot achieves this performance, we used high-speed imaging to capture its kinematics, and developed a numerical multi-body simulation of the robot coupled to an experimentally validated simulation of the granular medium. Average speeds measured in experiment and simulation agreed well, and increased nonlinearly with stride frequency, reflecting a change in propulsion mode. At low frequencies, the robot used a quasi-static ?rotary walking? mode, in which the substrate yielded as legs penetrated and then solidified once vertical force balance was achieved. At high frequencies the robot propelled itself using the speed-dependent fluid-like inertial response of the material. The simulation allows variation of parameters which are inconvenient to modify in experiment, and thus gives insight into how substrate and robot properties change performance. Our study reveals how lightweight animals can achieve high performance on granular substrates; such insights can advance the design and control of robots in deformable terrains.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913481690
+UR  - https://doi.org/10.1177/0278364913481690
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Control of ATRIAS in three dimensions: Walking as a forced-oscillation problem
+AU  - Rezazadeh, Siavash
+AU  - Hurst, Jonathan W
+Y1  - 2020/05/31
+PY  - 2020
+DA  - 2020/06/01
+N1  - doi: 10.1177/0278364920916777
+DO  - 10.1177/0278364920916777
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 774
+EP  - 796
+VL  - 39
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - In this article, we present a new controller for stable and robust walking control of ATRIAS, an underactuated bipedal robot designed based on the spring-loaded inverted pendulum (SLIP) model. We propose a forced-oscillation scheme for control of vertical motion, which we prove to be stable and contractive. Moreover, we prove that, through some mild assumptions, the dynamics of the system can be written in a hierarchical form that decouples the stability analyses of the horizontal and vertical directions. We leverage these properties to find a stabilizing class of functions for foot placement. The torso control is also proved to be decoupled using singular perturbation theory and is stabilized through a feedback linearization controller. We also take advantage of the proposed framework?s flexibility and extend it to include a new reflex-based uneven-terrain walking control scheme. We test the controller for various desired walking speeds (0 to 2.5 m/s), for stepping up and down unexpected obstacles (15 cm), and for high-speed walking on a random uneven terrain (up to 10 cm of step-ups and step-downs and up to 1.8 m/s). The results show successful performance of the controller and its stability and robustness against various perturbations.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364920916777
+UR  - https://doi.org/10.1177/0278364920916777
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Thrust Control, Stabilization and Energetics of a Quadruped Running Robot
+AU  - Estremera, Joaquin
+AU  - Waldron, Kenneth J
+Y1  - 2008/10/01
+PY  - 2008
+DA  - 2008/10/01
+N1  - doi: 10.1177/0278364908097063
+DO  - 10.1177/0278364908097063
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1135
+EP  - 1151
+VL  - 27
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - In order to achieve powered autonomous running robots it is essential to develop efficient actuator systems, especially for generating the radial thrust in the legs. In addition, the control of the radial thrust of the legs can be a simple, effective method for stabilizing the body pitch in a running gait. This paper presents the mechanical systems, models and control strategies employed to generate and control leg thrust in the KOLT quadruped running robot. An analytical model of the electro-pneumatic leg thrusting system is presented and analyzed to evaluate its performance and to facilitate the design of control strategies. Several experiments have been conducted to estimate the energy losses and determine their origins as well as to compute the energetic efficiency of the actuation system. Two thrust control methods are also proposed and tested experimentally. The closed loop method regulates thrust through the control of the hip liftoff speed, a conceptually simple control strategy that stabilizes the body pitch in pronk and trot gaits without the need for central feedback, even on irregular terrain. The open-loop control method regulates the energy added in each hop based on the model of the actuator system. The efficacy of these models and techniques is tested in several planar trot and pronk experiments, and the results are analyzed focusing on the body stabilization, the power consumption and the energetic efficiency.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908097063
+UR  - https://doi.org/10.1177/0278364908097063
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Design and modeling of linearly-constrained compliant spines for human-scale locomotion on rocky surfaces
+AU  - Wang, Shiquan
+AU  - Jiang, Hao
+AU  - Cutkosky, Mark R
+Y1  - 2017/07/21
+PY  - 2017
+DA  - 2017/08/01
+N1  - doi: 10.1177/0278364917720019
+DO  - 10.1177/0278364917720019
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 985
+EP  - 999
+VL  - 36
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - We present a new spine solution for the locomotion of human-scale robots on steep, rocky surfaces, known as linearly-constrained spines. The spine stiffness is low in the normal direction but high with respect to lateral and bending loads. The solution differs from previous spine arrays used for small robots in having a much higher spine density and less spine scraping over asperities. We present theoretical and empirical results to demonstrate that this solution is capable of shear stresses of over 200kPa, enabling human-scale robots to apply forces parallel to steep rock surfaces for climbing, bracing, etc. The analysis includes the effects of spine geometry, stiffness, backlash and three-dimensional loading angle to predict the overall forces possible in three dimensions of both single and opposed configurations of spine arrays. Demonstrated applications include a gripper for a ?smart staff? aimed at helping humanoid robots to negotiate steep terrain and a palm that provides over 700N in shear for the RoboSimian quadruped.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917720019
+UR  - https://doi.org/10.1177/0278364917720019
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Controlling the Walking Speed in Limit Cycle Walking
+AU  - Hobbelen, D.G.E.
+AU  - Wisse, M.
+Y1  - 2008/09/01
+PY  - 2008
+DA  - 2008/09/01
+N1  - doi: 10.1177/0278364908095005
+DO  - 10.1177/0278364908095005
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 989
+EP  - 1005
+VL  - 27
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - ?Limit Cycle Walking? is a relatively new paradigm for the design and control of two-legged walking robots. It states that achieving stable periodic gait is possible without locally stabilizing the walking trajectory at every instant in time, as is traditionally done in most walking robots. Well-known examples of Limit Cycle Walkers are the Passive Dynamic Walkers, but recently there are also many actuated Limit Cycle Walkers. Limit Cycle Walkers generally use less energy than other existing bipeds, but thus far they have not been as versatile. This paper focuses on one aspect of versatility: walking speed. We study how walking speed can be varied, which way is energetically beneficial and how walking speed affects a walker's ability to handle disturbances (that is, disturbance rejection). The study is performed using one prototype and one simulation model. The speed of these two walkers is adapted by changing three parameters: the amount of ankle push-off, upper body pitch and step length. The study has resulted in four conclusions. (1) Steady-state speeds between 0.24 and 0.68 m s-1(for a 0.6 m leg length) were obtained, with loss of stability determining the lower limit and actuation limits determining the upper limit. This result shows the applicability of Limit Cycle Walking for versatile walking machines. (2) For any speed, powering the gait by leaning the body forward costs less energy than using ankle push-off. (3) In contrast to the apparent tradeoff between speed and stability in traditional walking robots, in Limit Cycle Walking we find that increasing the walking speed, independent of how this is done, automatically results in an increasing disturbance rejection. (4) A combination of feedforward actuation adjustment and step-to-step feedback from walking speed shows that it is possible to change walking speed in only a few steps and maintain a desired speed when performing tasks such as carrying loads and walking on slopes. In particular, this fourth conclusion underlines the applicability of the concept of Limit Cycle Walking for versatile two-legged walking machines.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908095005
+UR  - https://doi.org/10.1177/0278364908095005
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Quadrupedal locomotion using hierarchical operational space control
+AU  - Hutter, Marco
+AU  - Sommer, Hannes
+AU  - Gehring, Christian
+AU  - Hoepflinger, Mark
+AU  - Bloesch, Michael
+AU  - Siegwart, Roland
+Y1  - 2014/05/01
+PY  - 2014
+DA  - 2014/07/01
+N1  - doi: 10.1177/0278364913519834
+DO  - 10.1177/0278364913519834
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1047
+EP  - 1062
+VL  - 33
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents the application of operational space control based on hierarchical task optimization for quadrupedal locomotion. We show how the behavior of a complex robotic machine can be described by a simple set of least squares problems with different priorities for motion, torque, and force optimization. Using projected dynamics of floating base systems with multiple contact points, the optimization dimensionality can be reduced or decoupled such that the formulation is purely based on the inversion of kinematic system properties. The present controller is extensively tested in various experiments using the fully torque controllable quadrupedal robot StarlETH. The load distribution is optimized for static walking gaits to improve contact stability and/or actuator efficiency under various terrain conditions. This is augmented with simultaneous joint position and torque limitations as well as with an interpolation method to ensure smooth contact transitions. The same control structure is further used to stabilize dynamic trotting gaits under significant external disturbances such as uneven ground or pushes. To the best of our knowledge, this work is the first documentation of static and dynamic locomotion with pure task-space inverse dynamics (no joint position feedback) control.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913519834
+UR  - https://doi.org/10.1177/0278364913519834
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - High-speed bounding with the MIT Cheetah 2: Control design and experiments
+AU  - Park, Hae-Won
+AU  - Wensing, Patrick M
+AU  - Kim, Sangbae
+Y1  - 2017/02/01
+PY  - 2017
+DA  - 2017/02/01
+N1  - doi: 10.1177/0278364917694244
+DO  - 10.1177/0278364917694244
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 167
+EP  - 192
+VL  - 36
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents the design and implementation of a bounding controller for the MIT Cheetah 2 and its experimental results. The paper introduces the architecture of the controller along with the functional roles of its subcomponents. The application of impulse scaling provides feedforward force profiles that automatically adapt across a wide range of speeds. A discrete gait pattern stabilizer maintains the footfall sequence and timing. Continuous feedback is layered to manage balance during the stance phase. Stable hybrid limit cycles are exhibited in simulation using simplified models, and are further validated in untethered three-dimensional bounding experiments. Experiments are conducted both indoors and outdoors on various man-made and natural terrains. The control framework is shown to provide stable bounding in the hardware, at speeds of up to 6.4 m/s and with a minimum total cost of transport of 0.47. These results are unprecedented accomplishments in terms of efficiency and speed in untethered experimental quadruped machines.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917694244
+UR  - https://doi.org/10.1177/0278364917694244
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Vertical hopper compositions for preflexive and feedback-stabilized quadrupedal bounding, pacing, pronking, and trotting
+AU  - De, Avik
+AU  - Koditschek, Daniel E.
+Y1  - 2018/06/01
+PY  - 2018
+DA  - 2018/06/01
+N1  - doi: 10.1177/0278364918779874
+DO  - 10.1177/0278364918779874
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 743
+EP  - 778
+VL  - 37
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - This paper applies an extension of classical averaging methods to hybrid dynamical systems, thereby achieving formally specified, physically effective and robust instances of all virtual bipedal gaits on a quadrupedal robot. Gait specification takes the form of a three parameter family of coupling rules mathematically shown to stabilize limit cycles in a low degree of freedom template: an abstracted pair of vertical hoppers whose relative phase locking encodes the desired physical leg patterns. These coupling rules produce the desired gaits when appropriately applied to the physical robot. The formal analysis reveals a distinct set of morphological regimes determined by the distribution of the body?s inertia within which particular phase relationships are naturally locked with no need for feedback stabilization (or, if undesired, must be countermanded by the appropriate feedback), and these regimes are shown empirically to analogously govern the physical machine as well. In addition to the mathematical stability analysis and data from physical experiments we summarize a number of extensive numerical studies that explore the relationship between the simple template and its more complicated anchoring body models.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364918779874
+UR  - https://doi.org/10.1177/0278364918779874
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Bounding with Active Wheels and Liftoff Angle Velocity Adjustment
+AU  - Smith, James Andrew
+AU  - Poulakakis, Ioannis
+AU  - Trentini, Michael
+AU  - Sharf, Inna
+Y1  - 2009/06/17
+PY  - 2009
+DA  - 2010/04/01
+N1  - doi: 10.1177/0278364909336807
+DO  - 10.1177/0278364909336807
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 414
+EP  - 427
+VL  - 29
+IS  - 4
+PB  - SAGE Publications Ltd STM
+N2  - The bounding gait for the Platform for Ambulating Wheels (PAW), a new and unique hybrid wheeled?leg system is presented. Two hypotheses are tested and discussed: first, that the robot?s forward speed can be increased by increasing the leg liftoff angles and, second, that the addition of distally mounted actuated wheels can be used in running gaits such as the bound. Both hypotheses were tested experimentally and found to be valid.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909336807
+UR  - https://doi.org/10.1177/0278364909336807
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - The Epi.q-1 Hybrid Mobile Robot
+AU  - Quaglia, G.
+AU  - Maffiodo, D.
+AU  - Franco, W.
+AU  - Appendino, S.
+AU  - Oderio, R.
+Y1  - 2009/05/19
+PY  - 2009
+DA  - 2010/01/01
+N1  - doi: 10.1177/0278364909336806
+DO  - 10.1177/0278364909336806
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 81
+EP  - 91
+VL  - 29
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - In this paper we propose an innovative solution for a small size hybrid mobile robot called Epi.q-1. Overall dimensions are about 160 mm x 360 mm x 280 mm (height x length x width). The Epi.q-1 robot moves on flat, steep or uneven ground. It can climb over obstacles or steps, even if they are non-uniform in size. Its operating mode adapts to ground conditions and changes accordingly: from rolling (on wheels) to stepping (on legs); thanks to its great mobility it can follow complex routes. It is easy to control with just a few actuators. Robot locomotion drive-generating units employ an original driving mechanism, where degrees of freedom (DOFs) can be limited to some extent according to the operating conditions or thanks to a switching device. Locomotion units consist of a motor linked to a gear (double epicyclical chain) and an axial device (mini-motor and lead screw system) able to lock or unlock some DOFs of the kinematic chain. Moreover, the robot locomotion unit can change its size, from small to large and vice versa, in order to be able to reach restricted spaces and to overcome even quite tall obstacles. It was experimentally tested on flat ground and slopes. It can overcome 90 mm obstacles, that are 72% of the height of the locomotion unit, and climb stairs.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909336806
+UR  - https://doi.org/10.1177/0278364909336806
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - High speed trot-running: Implementation of a hierarchical controller using proprioceptive impedance control on the MIT Cheetah
+AU  - Hyun, Dong Jin
+AU  - Seok, Sangok
+AU  - Lee, Jongwoo
+AU  - Kim, Sangbae
+Y1  - 2014/08/21
+PY  - 2014
+DA  - 2014/09/01
+N1  - doi: 10.1177/0278364914532150
+DO  - 10.1177/0278364914532150
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1417
+EP  - 1445
+VL  - 33
+IS  - 11
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents implementation of a highly dynamic running gait with a hierarchical controller on the MIT Cheetah. The developed controller enables high-speed running of up to 6?m/s (Froude number of Fr ≈ 7.34) incorporating proprioceptive feedback and programmable virtual leg compliance of the MIT Cheetah. To achieve a stable and fast trot gait, we applied three control strategies: (a) programmable virtual leg compliance that provides instantaneous reflexes to external disturbance and facilitates the self-stabilizing shown in the passive dynamics of locomotion; (b) tunable stance-trajectory design, intended to adjust impulse at each foot-end in the stance phase in a high speed trot-running according to the equilibrium-point hypothesis; and (c) a gait-pattern modulation that imposes a desired cyclic gait-pattern taking cues from proprioceptive TD feedback. Based on three strategies, the controller is hierarchically structured. The control parameters for forward speeds, a specific gait-pattern, and desired leg trajectories are managed by a high-level controller. It consists of both a gait-pattern modulator with proprioceptive leg TD detection and a leg-trajectory generator using a Bèzier curve and a tunable amplitude sinusoidal wave. Instead of employing physical spring/dampers in the robot?s leg, the programmable virtual leg compliance is realized using proprioceptive impedance control in individual low-level leg controllers.To verify the developed controller, a robot dynamic simulator is constructed based on the model parameters of the MIT Cheetah. The controller parameters are tuned with the simulator to achieve self-stability, and then applied to the MIT Cheetah in an experimental environment. Using leg kinematics and applied motor current feedbacks, the MIT Cheetah achieved a stable trot-running gait in the sagittal plane.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364914532150
+UR  - https://doi.org/10.1177/0278364914532150
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Reactive navigation in partially familiar planar environments using semantic perceptual feedback
+AU  - Vasilopoulos, Vasileios
+AU  - Pavlakos, Georgios
+AU  - Schmeckpeper, Karl
+AU  - Daniilidis, Kostas
+AU  - Koditschek, Daniel E.
+Y1  - 2021/10/22
+PY  - 2021
+DA  - 2022/01/01
+N1  - doi: 10.1177/02783649211048931
+DO  - 10.1177/02783649211048931
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 85
+EP  - 126
+VL  - 41
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - This article solves the planar navigation problem by recourse to an online reactive scheme that exploits recent advances in simultaneous localization and mapping (SLAM) and visual object recognition to recast prior geometric knowledge in terms of an offline catalog of familiar objects. The resulting vector field planner guarantees convergence to an arbitrarily specified goal, avoiding collisions along the way with fixed but arbitrarily placed instances from the catalog as well as completely unknown fixed obstacles so long as they are strongly convex and well separated. We illustrate the generic robustness properties of such deterministic reactive planners as well as the relatively modest computational cost of this algorithm by supplementing an extensive numerical study with physical implementation on both a wheeled and legged platform in different settings.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211048931
+UR  - https://doi.org/10.1177/02783649211048931
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Terrain-blind walking of planar underactuated bipeds via velocity decomposition-enhanced control
+AU  - Fevre, Martin
+AU  - Goodwine, Bill
+AU  - Schmiedeler, James P
+Y1  - 2019/08/26
+PY  - 2019
+DA  - 2019/09/01
+N1  - doi: 10.1177/0278364919870242
+DO  - 10.1177/0278364919870242
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1307
+EP  - 1323
+VL  - 38
+IS  - 10-11
+PB  - SAGE Publications Ltd STM
+N2  - In this article, we develop and assess a novel approach for the control of underactuated planar bipeds that is based on velocity decomposition. The new controller employs heuristic rules that mimic the functionality of transverse linearization feedback control and that can be layered on top of a conventional hybrid zero dynamics (HZD)-based controller. The heuristics sought to retain HZD-based control?s simplicity and enhance disturbance rejection for practical implementation on realistic biped robots. The proposed control strategy implements a feedback on the time rate of change of the decomposed uncontrolled velocity and is compared with conventional HZD-based control and transverse linearization feedback control for both vanishing and non-vanishing disturbances. Simulation studies with a point-foot, three-link biped show that the proposed method has nearly identical performance to transverse linearization feedback control and outperforms conventional HZD-based control. For the non-vanishing case, the velocity decomposition-enhanced controller outperforms HZD-based control, but takes fewer steps on average before failure than transverse linearization feedback control when walking on uneven terrain without visual perception of the ground. The findings were validated experimentally on a planar, five-link biped robot for eight different uneven terrains. The velocity decomposition-enhanced controller outperformed HZD-based control while maintaining a relatively low specific energetic cost of transport (~0.45). The biped robot ?blindly? traversed uneven terrains with changes in terrain height accumulating to 5% of its leg length using the stand-alone low-level controller.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919870242
+UR  - https://doi.org/10.1177/0278364919870242
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - That Which Does Not Stabilize, Will Only Make Us Stronger
+AU  - Kazerooni, H.
+AU  - Chu, Andrew
+AU  - Steger, Ryan
+Y1  - 2007/01/01
+PY  - 2007
+DA  - 2007/01/01
+N1  - doi: 10.1177/0278364907074472
+DO  - 10.1177/0278364907074472
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 75
+EP  - 89
+VL  - 26
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Many places in the world are too rugged or enclosed for vehicles to access. Even today, material transport to such areas is limited to manual labor and beasts of burden. Modern advancements in wearable robotics may make those methods obsolete. Lower extremity exoskeletons seek to supplement the intelligence and sensory systems of a human with the significant strength and endurance of a pair of wearable robotic legs that support a payload. This article first outlines the use of Clinical Gait Analysis data as the framework for the design of such a system at UC Berkeley. This data is used to design the exoskeleton degrees of freedom and size its actuators. It will then give an overview of one of the control schemes implemented on the BLEEX. The control algorithm described here increases the system closed loop sensitivity to its wearer?s forces and torques without any measurement from the wearer (such as force, position, or electromyogram signal). The control algorithm uses the inverse dynamics of the exoskeleton, scaled by a number smaller than unity, as a positive feedback controller. This controller almost destabilizes the system since it leads to an overall loop gain slightly smaller than unity and results in a large sensitivity to all wearer?s forces and torques thereby allowing the exoskeleton to shadow its wearer.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364907074472
+UR  - https://doi.org/10.1177/0278364907074472
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Enabling impedance-based physical human–multi–robot collaboration: Experiments with four torque-controlled manipulators
+AU  - Dehio, Niels
+AU  - Smith, Joshua
+AU  - Wigand, Dennis L.
+AU  - Mohammadi, Pouya
+AU  - Mistry, Michael
+AU  - Steil, Jochen J.
+Y1  - 2021/11/24
+PY  - 2021
+DA  - 2022/01/01
+N1  - doi: 10.1177/02783649211053650
+DO  - 10.1177/02783649211053650
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 68
+EP  - 84
+VL  - 41
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Robotics research into multi-robot systems so far has concentrated on implementing intelligent swarm behavior and contact-less human interaction. Studies of haptic or physical human-robot interaction, by contrast, have primarily focused on the assistance offered by a single robot. Consequently, our understanding of the physical interaction and the implicit communication through contact forces between a human and a team of multiple collaborative robots is limited. We here introduce the term Physical Human Multi-Robot Collaboration (PHMRC) to describe this more complex situation, which we consider highly relevant in future service robotics. The scenario discussed in this article covers multiple manipulators in close proximity and coupled through physical contacts. We represent this set of robots as fingers of an up-scaled agile robot hand. This perspective enables us to employ model-based grasping theory to deal with multi-contact situations. Our torque-control approach integrates dexterous multi-manipulator grasping skills, optimization of contact forces, compensation of object dynamics, and advanced impedance regulation into a coherent compliant control scheme. For this to achieve, we contribute fundamental theoretical improvements. Finally, experiments with up to four collaborative KUKA LWR IV+ manipulators performed both in simulation and real world validate the model-based control approach. As a side effect, we notice that our multi-manipulator control framework applies identically to multi-legged systems, and we execute it also on the quadruped ANYmal subject to non-coplanar contacts and human interaction.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211053650
+UR  - https://doi.org/10.1177/02783649211053650
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - A model predictive approach for online mobile manipulation of non-holonomic objects using learned dynamics
+AU  - Sabbagh Novin, Roya
+AU  - Yazdani, Amir
+AU  - Merryweather, Andrew
+AU  - Hermans, Tucker
+Y1  - 2021/02/15
+PY  - 2021
+DA  - 2021/04/01
+N1  - doi: 10.1177/0278364921992793
+DO  - 10.1177/0278364921992793
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 815
+EP  - 831
+VL  - 40
+IS  - 4-5
+PB  - SAGE Publications Ltd STM
+N2  - Assistive robots designed for physical interaction with objects will play an important role in assisting with mobility and fall prevention in healthcare facilities. Autonomous mobile manipulation presents a hurdle prior to safely using robots in real-life applications. In this article, we introduce a mobile manipulation framework based on model predictive control using learned dynamics models of objects. We focus on the specific problem of manipulating legged objects such as those commonly found in healthcare environments and personal dwellings (e.g., walkers, tables, chairs). We describe a probabilistic method for autonomous learning of an approximate dynamics model for these objects. In this method, we learn dynamic parameters using a small dataset consisting of force and motion data from interactions between the robot and object. Moreover, we account for multiple manipulation strategies by formulating manipulation planning as a mixed-integer convex optimization. The proposed framework considers the hybrid control system composed of (i) choosing which leg to grasp and (ii) control of continuous applied forces for manipulation. We formalize our algorithm based on model predictive control to compensate for modeling errors and find an optimal path to manipulate the object from one configuration to another. We present results for several objects with various wheel configurations. Simulation and physical experiments show that the obtained dynamics models are sufficiently accurate for safe and collision-free manipulation. When combined with the proposed manipulation planning algorithm, the robot successfully moves the object to the desired pose while avoiding any collision.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364921992793
+UR  - https://doi.org/10.1177/0278364921992793
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Computational co-optimization of design parameters and motion trajectories for robotic systems
+AU  - Ha, Sehoon
+AU  - Coros, Stelian
+AU  - Alspach, Alexander
+AU  - Kim, Joohyung
+AU  - Yamane, Katsu
+Y1  - 2018/06/05
+PY  - 2018
+DA  - 2018/12/01
+N1  - doi: 10.1177/0278364918771172
+DO  - 10.1177/0278364918771172
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1521
+EP  - 1536
+VL  - 37
+IS  - 13-14
+PB  - SAGE Publications Ltd STM
+N2  - We present a novel computational approach to optimizing the morphological design of robots. Our framework takes as input a parameterized robot design as well as a motion plan consisting of trajectories for end-effectors and, optionally, for its body. The algorithm optimizes the design parameters including link lengths and actuator placements whereas concurrently adjusting motion parameters such as joint trajectories, actuator inputs, and contact forces. Our key insight is that the complex relationship between design and motion parameters can be established via sensitivity analysis if the robot?s movements are modeled as spatiotemporal solutions to an optimal control problem. This relationship between form and function allows us to automatically optimize the robot design based on specifications expressed as a function of actuator forces or trajectories. We evaluate our model by computationally optimizing four simulated robots that employ linear actuators, four-bar linkages, or rotary servos. We further validate our framework by optimizing the design of two small quadruped robots and testing their performances using hardware implementations.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364918771172
+UR  - https://doi.org/10.1177/0278364918771172
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Adaptive Dynamic Walking of a Quadruped Robot on Natural Ground Based on Biological Concepts
+AU  - Kimura, Hiroshi
+AU  - Fukuoka, Yasuhiro
+AU  - Cohen, Avis H.
+Y1  - 2007/05/01
+PY  - 2007
+DA  - 2007/05/01
+N1  - doi: 10.1177/0278364907078089
+DO  - 10.1177/0278364907078089
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 475
+EP  - 490
+VL  - 26
+IS  - 5
+PB  - SAGE Publications Ltd STM
+N2  - The paper reports on a project to make a quadruped robot walk with medium forward speed on irregular terrain in an outdoor environment using a neural system model. The necessary conditions for stable dynamic walking on irregular terrain in general are proposed, and the neural system is designed by comparing biological concepts with those necessary conditions described in physical terms. A PD-controller is used at joints to construct a virtual spring?damper system as the visco-elasticity model of a muscle. The neural system model consists of a CPG (central pattern generator), responses and reflexes. A response directly and quickly modulates the CPG phase, and a reflex directly generates joint torque. The state of the virtual spring?damper system is switched, based on the CPG phase. In order to make a self-contained quadruped (called Tekken2) walk on natural ground, several new reflexes and responses are developed in addition to those developed in previous studies. A flexor reflex prevents a leg from stumbling on small bumps and pebbles. A sideways stepping reflex stabilizes rolling motion on a sideways inclined slope. A corrective stepping reflex/response prevents the robot from falling down in the case of loss of ground contact. A crossed flexor reflex helps a swinging leg keep enough clearance between the toe and the ground. The effectiveness of the proposed neural system model control and especially the newly developed reflexes and responses are validated by indoor and outdoor experiments using Tekken2. A CPG receives sensory feedback as a result of motions induced by reflexes, and changes the period of its own active phase. Since a CPG has the ability of mutual entrainment with pitching motion of legs and rolling motion of the body in addition, the consistency between motion of a leg temporally modified by a reflex and motions of the other legs is maintained autonomously. It is shown that CPGs can be the center of sensorimotor coordination, and that the neural system model simply defining the relationships between CPGs, sensory input, reflexes and mechanical system works very well even in complicated tasks such as adaptive dynamic walking on unstructured natural ground.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364907078089
+UR  - https://doi.org/10.1177/0278364907078089
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Implementation of trot-to-gallop transition and subsequent gallop on the MIT           Cheetah I
+AU  - Hyun, Dong Jin
+AU  - Lee, Jongwoo
+AU  - Park, SangIn
+AU  - Kim, Sangbae
+Y1  - 2016/07/11
+PY  - 2016
+DA  - 2016/11/01
+N1  - doi: 10.1177/0278364916640102
+DO  - 10.1177/0278364916640102
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1627
+EP  - 1650
+VL  - 35
+IS  - 13
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents a demonstration of the trot-to-gallop transition and subsequent stable gallop in a robotic quadruped. The MIT Cheetah I, a planar quadruped platform for high-speed running, achieves these tasks with a speed of 3.2 m/s (Froude number of 2.1) on a treadmill. The controller benefits from clues from biological findings and it incorporates (1) a gait pattern modulation that imposes predefined gait patterns with a proprioceptive touchdown feedback, (2) tunable equilibrium-point foot-end trajectories for four limbs that intentionally modulate ground reaction forces, and (3) programmable leg compliance that provides instantaneous reflexes to leg?ground interaction. An inertial measurement unit sensor is integrated with the controller in order to regulate leg angles of attack at touchdown. We reduce the dimension of the control parameters which describe temporal/spatial characteristics of quadruped locomotion, and the values are tuned via dynamic simulation and then experiment. Given a pre-defined virtual leg compliance and a desired angle of attack of legs, the equilibrium-point foot-end trajectories and phase relationships between four legs for stable trot and gallop gaits are found independently. We propose a simple throw-and-catch gait transition strategy which connects two stable limit cycles, the trot and the gallop, by linearly varying control parameters during the transition period. Successful gait transition is achieved in both simulation and experiment. Comprehensive analysis on the characteristics of the MIT Cheetah I experimental trot-to-gallop transition is provided. The phase portraits imply that stable limit cycles are achieved with the proposed controller in both trot and gallop, which enables the trot-to-gallop gait transition at high speed.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916640102
+UR  - https://doi.org/10.1177/0278364916640102
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Mini-Whegs TM Climbs Steep Surfaces Using Insect-inspired Attachment Mechanisms
+AU  - Daltorio, Kathryn A.
+AU  - Wei, Terence E.
+AU  - Horchler, Andrew D.
+AU  - Southard, Lori
+AU  - Wile, Gregory D.
+AU  - Quinn, Roger D.
+AU  - Gorb, Stanislav N.
+AU  - Ritzmann, Roy E.
+Y1  - 2009/02/01
+PY  - 2009
+DA  - 2009/02/01
+N1  - doi: 10.1177/0278364908095334
+DO  - 10.1177/0278364908095334
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 285
+EP  - 302
+VL  - 28
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - When climbing vertical or inclined surfaces, insects utilize claws, tibial spines, and tarsal pads to create attachment forces. These devices allow them to climb on a variety of substrates, including those that are smooth, soft, or porous. Recent advances in materials may make long-lasting dry adhesives and arrays of sharp hooks feasible attachment mechanisms for small robots. Mini-WhegsTM are a series of robots that use rotating wheel-legs driven by a single motor for locomotion. By testing specially designed wheel-legs with office tape, pairs of spines, and Velcro?, this work demonstrates the feasibility of applying novel adhesives and frictional materials passively on simple rotating legs. The resulting robot climbs vertical fabric surfaces with Velcro?, crosses ceilings with Scotch? tape, and climbs steep concrete inclines with sharp spines and provides a test-platform for future adhesive materials such as dry adhesive tape.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908095334
+UR  - https://doi.org/10.1177/0278364908095334
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Stable dynamic walking over uneven terrain
+AU  - Manchester, Ian R
+AU  - Mettin, Uwe
+AU  - Iida, Fumiya
+AU  - Tedrake, Russ
+Y1  - 2011/01/24
+PY  - 2011
+DA  - 2011/03/01
+N1  - doi: 10.1177/0278364910395339
+DO  - 10.1177/0278364910395339
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 265
+EP  - 279
+VL  - 30
+IS  - 3
+PB  - SAGE Publications Ltd STM
+N2  - We propose a constructive control design for stabilization of non-periodic trajectories of underactuated robots. An important example of such a system is an underactuated ?dynamic walking? biped robot traversing rough or uneven terrain. The stabilization problem is inherently challenging due to the nonlinearity, open-loop instability, hybrid (impact) dynamics, and target motions which are not known in advance. The proposed technique is to compute a transverse linearization about the desired motion: a linear impulsive system which locally represents ?transversal? dynamics about a target trajectory. This system is then exponentially stabilized using a modified receding-horizon control design, providing exponential orbital stability of the target trajectory of the original nonlinear system. The proposed method is experimentally verified using a compass-gait walker: a two-degree-of-freedom biped with hip actuation but pointed stilt-like feet. The technique is, however, very general and can be applied to a wide variety of hybrid nonlinear systems.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910395339
+UR  - https://doi.org/10.1177/0278364910395339
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - On the mechanical contribution of head stabilization to passive dynamics of anthropometric walkers
+AU  - Benallegue, Mehdi
+AU  - Laumond, Jean-Paul
+AU  - Berthoz, Alain
+Y1  - 2019/12/24
+PY  - 2019
+DA  - 2020/03/01
+N1  - doi: 10.1177/0278364919894387
+DO  - 10.1177/0278364919894387
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 461
+EP  - 475
+VL  - 39
+IS  - 4
+PB  - SAGE Publications Ltd STM
+N2  - During the steady gait, humans stabilize their head around the vertical orientation. Although there are sensori-cognitive explanations for this phenomenon, its mechanical effect on the body dynamics remains unexplored. In this study, we take profit from the similarities that human steady gait shares with the locomotion of passive-dynamics robots. We introduce a simplified anthropometric 2D model to reproduce a broad walking dynamics. In a previous study, we showed heuristically that the presence of a stabilized head?neck system has a significant influence on the dynamics of walking. This article gives new insights that lead to understanding this mechanical effect. In particular, we introduce an original cart upper-body model that allows to better understand the mechanical interest of head stabilization when walking, and we study how this effect is sensitive to the choice of control parameters.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919894387
+UR  - https://doi.org/10.1177/0278364919894387
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Real-time pose estimation of a dynamic quadruped in GPS-denied environments for 24-hour operation
+AU  - Ma, Jeremy
+AU  - Bajracharya, Max
+AU  - Susca, Sara
+AU  - Matthies, Larry
+AU  - Malchano, Matt
+Y1  - 2015/07/24
+PY  - 2015
+DA  - 2016/05/01
+N1  - doi: 10.1177/0278364915587333
+DO  - 10.1177/0278364915587333
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 631
+EP  - 653
+VL  - 35
+IS  - 6
+PB  - SAGE Publications Ltd STM
+N2  - We present a real-time system that enables a highly capable dynamic quadruped robot to maintain an accurate six-degree-of-freedom pose estimate (within a 1.0% error of distance traveled) over long distances traversed through complex, dynamic outdoor terrain, during day and night, in the presence of camera occlusion and saturation, and occasional large external disturbances, such as slips or falls. The system fuses a stereo-camera sensor, inertial measurement unit, leg odometry, and optional intermittent GPS position updates with an extended Kalman filter to ensure robust, low-latency performance. To maintain a six-degree-of-freedom local positioning accuracy alongside the global positioning knowledge, two reference frames are used; a local reference frame and a global reference frame, with the former benefiting obstacle detection and mapping and the latter for operator-specified and autonomous way-point following. Extensive experimental results obtained from multiple field tests are presented to illustrate the performance and robustness of the system over hours of continuous runs and hundreds of kilometers of distance traveled in a wide variety of terrains and conditions.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364915587333
+UR  - https://doi.org/10.1177/0278364915587333
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Stability Analysis of Passive Dynamic Walking of Quadrupeds
+AU  - Remy, C. David
+AU  - Buffinton, Keith
+AU  - Siegwart, Roland
+Y1  - 2009/08/14
+PY  - 2009
+DA  - 2010/08/01
+N1  - doi: 10.1177/0278364909344635
+DO  - 10.1177/0278364909344635
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1173
+EP  - 1185
+VL  - 29
+IS  - 9
+PB  - SAGE Publications Ltd STM
+N2  - We introduce a detailed numerical simulation and analysis framework to extend the principles of passive dynamic walking to quadrupedal locomotion. Non-linear limit cycle methods are used to identify possible gaits and to analyze the stability and efficiency of quadrupedal passive dynamic walking. In doing so, special attention is paid to issues that are inherent to quadrupedal locomotion, such as the occurrence of simultaneous contact collisions and the implications of the phase difference between front and back leg pairs. Limit cycles identified within this framework correspond to periodic gaits and can be placed into two categories: in-phase gaits in which front and back legs hit the ground at roughly the same time, and out-of-phase gaits with a ±90° phase shift between the back and front leg pairs. The latter are, in comparison, energetically more efficient but exhibit one unstable eigenvalue that leads to a phase divergence and results in a gait-transition to a less efficient in-phase gait. A detailed analysis examines the influence of various parameters on stability and locomotion speed, with the ultimate goal of determining a stable solution for the energy-efficient, out-of-phase gait. This was achieved through the use of a wobbling mass, i.e. an additional mass that is elastically attached to the main body of the quadruped. The methods, results, and gaits presented in this paper additionally provide a point of departure for the exploration of the considerably richer range of quadrupedal locomotion found in nature.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909344635
+UR  - https://doi.org/10.1177/0278364909344635
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Autonomous navigation of a humanoid robot over unknown rough terrain using a laser range sensor
+AU  - Nishiwaki, Koichi
+AU  - Chestnutt, Joel
+AU  - Kagami, Satoshi
+Y1  - 2012/08/17
+PY  - 2012
+DA  - 2012/09/01
+N1  - doi: 10.1177/0278364912455720
+DO  - 10.1177/0278364912455720
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1251
+EP  - 1262
+VL  - 31
+IS  - 11
+PB  - SAGE Publications Ltd STM
+N2  - The present paper describes the integration of laser-based perception, footstep planning, and walking control of a humanoid robot for navigation over previously unknown rough terrain. A perception system that obtains the shape of the surrounding environment to an accuracy of a few centimeters is realized based on input obtained using a scanning laser range sensor. A footstep planner decides the sequence of stepping positions using the obtained terrain shape. A walking controller that can cope with a few centimeters of error in terrain shape measurement is achieved by combining the generation of a 40-ms cycle online walking pattern and a ground reaction force controller with sensor feedback. An operational interface was developed to send commands to the robot. A mixed-reality display was adopted to realize an intuitive interface. The navigation system was implemented on the HRP-2, a full-size humanoid robot. The performance of the proposed system for navigation over unknown rough terrain and the accuracy of the terrain shape measurement were investigated through several experiments.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364912455720
+UR  - https://doi.org/10.1177/0278364912455720
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - A simple model of balancing in the plane and a simple preview balance controller
+AU  - Featherstone, Roy
+Y1  - 2017/02/09
+PY  - 2017
+DA  - 2017/12/01
+N1  - doi: 10.1177/0278364917691114
+DO  - 10.1177/0278364917691114
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1489
+EP  - 1507
+VL  - 36
+IS  - 13-14
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents a new model of the dynamics of a general planar robot balancing on a point in the plane, in which the essential parameters of the robot?s balancing behaviour are reduced to just two numbers, both of which are simple functions of basic physical properties of the robot mechanism. A third number describes the effect of other movements on the robot?s balance. This model gives rise to a simple preview balance controller consisting of a four-term control law with easily calculated gains and a reverse-time low-pass filter acting on a preview of the command signal. The filter makes the robot lean in anticipation of future movements. Simulation results are presented showing the balance controller achieving excellent tracking of large fast motion commands while simultaneously maintaining the robot?s balance and accurately rejecting disturbances caused by other motions being performed by the robot. The controller is also robust to effects such as actuator saturation and sensor noise.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917691114
+UR  - https://doi.org/10.1177/0278364917691114
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Bio-inspired controller achieving forward speed modulation with a 3D bipedal walker
+AU  - Van der Noot, Nicolas
+AU  - Ijspeert, Auke Jan
+AU  - Ronsse, Renaud
+Y1  - 2018/01/01
+PY  - 2018
+DA  - 2018/01/01
+N1  - doi: 10.1177/0278364917743320
+DO  - 10.1177/0278364917743320
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 168
+EP  - 196
+VL  - 37
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Despite all the effort devoted to generating locomotion algorithms for bipedal walkers, robots are still far from reaching the impressive human walking capabilities, for instance regarding robustness and energy consumption. In this paper, we have developed a bio-inspired torque-based controller supporting the emergence of a new generation of robust and energy-efficient walkers. It recruits virtual muscles driven by reflexes and a central pattern generator, and thus requires no computationally intensive inverse kinematics or dynamics modeling. This controller is capable of generating energy-efficient and human-like gaits (both regarding kinematics and dynamics) across a large range of forward speeds, in a 3D environment. After a single off-line optimization process, the forward speed can be continuously commanded within this range by changing high-level parameters, as linear or quadratic functions of the target speed. Sharp speed transitions can then be achieved with no additional tuning, resulting in immediate adaptations of the step length and frequency. In this paper, we particularly embodied this controller on a simulated version of COMAN, a 95 cm tall humanoid robot. We reached forward speed modulations between 0.4 and 0.9 m/s. This covers normal human walking speeds once scaled to the robot size. Finally, the walker demonstrated significant robustness against a large spectrum of unpredicted perturbations: facing external pushes or walking on altered environments, such as stairs, slopes, and irregular ground.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917743320
+UR  - https://doi.org/10.1177/0278364917743320
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Tractable locomotion planning for RoboSimian
+AU  - Satzinger, Brian W.
+AU  - Lau, Chelsea
+AU  - Byl, Marten
+AU  - Byl, Katie
+Y1  - 2015/08/21
+PY  - 2015
+DA  - 2015/11/01
+N1  - doi: 10.1177/0278364915584947
+DO  - 10.1177/0278364915584947
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1541
+EP  - 1558
+VL  - 34
+IS  - 13
+PB  - SAGE Publications Ltd STM
+N2  - This paper investigates practical solutions for low-bandwidth, teleoperated mobility for RoboSimian in complex environments. Locomotion planning for this robot is challenging due to kinematic redundancy. We present an end-to-end planning method that exploits a reduced-dimension rapidly-exploring random tree search, constraining a subset of limbs to an inverse kinematics table. Then, we evaluate the performance of this approach through simulations in randomized environments and in the style of the Defense Advanced Research Projects Agency Robotics Challenges terrain both in simulation and with hardware.We also illustrate the importance of allowing for significant body motion during swing leg motions on extreme terrain and quantify the trade-offs between computation time and execution time, subject to velocity and acceleration limits of the joints. These results lead us to hypothesize that appropriate statistical ?investment? of parallel computing resources between competing formulations or flavors of random planning algorithms can improve motion planning performance significantly. Motivated by the need to improve the speed of limbed mobility for the Defense Advanced Research Projects Agency Robotics Challenge, we introduce one formulation of this resource allocation problem as a toy example and discuss advantages and implications of such trajectory planning for tractable locomotion on complex terrain.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364915584947
+UR  - https://doi.org/10.1177/0278364915584947
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Quantitative measures of a robot’s physical ability to balance
+AU  - Featherstone, Roy
+Y1  - 2016/09/28
+PY  - 2016
+DA  - 2016/12/01
+N1  - doi: 10.1177/0278364916669599
+DO  - 10.1177/0278364916669599
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1681
+EP  - 1696
+VL  - 35
+IS  - 14
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents quantitative measures of a robot?s physical ability to balance itself actively on a single point, line or area of support. These measures express the ratio of a change in the state of motion of the robot?s center of mass to the amount of action required at the actuated joints in order to produce that change. They therefore represent measures of the gain of the robot mechanism as seen from the point of view of the balance control system. This paper is concerned mainly with ratios of velocities, called velocity gains, and it builds on earlier work by showing how these ratios can be defined and calculated for the case of a general planar or spatial robot balancing on a point, line or general rolling contact, or an area contact with a compliant surface. The paper concludes with three examples of use?design of a triple pendulum, analysis of a hydraulic quadruped, and expressing the physics of planar balancing?followed by a short discussion of gyroscopic balancing.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916669599
+UR  - https://doi.org/10.1177/0278364916669599
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Analysis of human–robot interaction at the DARPA Robotics Challenge Finals
+AU  - Norton, Adam
+AU  - Ober, Willard
+AU  - Baraniecki, Lisa
+AU  - McCann, Eric
+AU  - Scholtz, Jean
+AU  - Shane, David
+AU  - Skinner, Anna
+AU  - Watson, Robert
+AU  - Yanco, Holly
+Y1  - 2017/02/09
+PY  - 2017
+DA  - 2017/06/01
+N1  - doi: 10.1177/0278364916688254
+DO  - 10.1177/0278364916688254
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 483
+EP  - 513
+VL  - 36
+IS  - 5-7
+PB  - SAGE Publications Ltd STM
+N2  - In June 2015, the Defense Advanced Research Projects Agency (DARPA) Robotics Challenge (DRC) Finals were held in Pomona, California. The DRC Finals served as the third phase of the program designed to test the capabilities of semi-autonomous, remote humanoid robots to perform disaster response tasks with degraded communications. All competition teams were responsible for developing their own interaction method to control their robot. Of the 23 teams in the competition, 20 consented to participate in this study of human?robot interaction (HRI). The evaluation team observed the consenting teams during task execution in their control rooms (with the operators), and all 23 teams were observed on the field during the public event (with the robot). A variety of data were collected both before the competition and on-site. Each participating team?s interaction methods were distilled into a set of characteristics pertaining to the robot, operator strategies, control methods, and sensor fusion. Each task was decomposed into subtasks that were classified according to the complexity of the mobility and/or manipulation actions being performed. Performance metrics were calculated regarding the number of task attempts, performance time, and critical incidents, which were then correlated to each team?s interaction methods. The results of this analysis suggest that a combination of HRI characteristics, including balancing the capabilities of the operator with those of the robot and multiple sensor fusion instances with variable reference frames, positively impacted task performance. A set of guidelines for designing HRI with remote, semi-autonomous humanoid robots is proposed based on these results.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916688254
+UR  - https://doi.org/10.1177/0278364916688254
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - ATRIAS: Design and validation of a tether-free 3D-capable spring-mass bipedal           robot
+AU  - Hubicki, Christian
+AU  - Grimes, Jesse
+AU  - Jones, Mikhail
+AU  - Renjewski, Daniel
+AU  - Spröwitz, Alexander
+AU  - Abate, Andy
+AU  - Hurst, Jonathan
+Y1  - 2016/06/10
+PY  - 2016
+DA  - 2016/10/01
+N1  - doi: 10.1177/0278364916648388
+DO  - 10.1177/0278364916648388
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1497
+EP  - 1521
+VL  - 35
+IS  - 12
+PB  - SAGE Publications Ltd STM
+N2  - ATRIAS is a human-scale 3D-capable bipedal robot designed to mechanically embody the spring-mass model for dynamic walking and running. To help bring the extensive work on this theoretical model further into practice, we present the design and validation of a spring-mass robot that can operate in real-world settings (i.e. off-tether and without planarizing restraints). We outline the mechanisms and design choices necessary to meet these specifications, particularly ATRIAS? four-bar series-elastic leg design. We experimentally demonstrate the following robot capabilities, which are characteristics of the target model. 1) We present the robot?s physical capability for both grounded and aerial gaits, including planar walking and sustained hopping, while being more efficient than similarly gait-versatile bipeds. 2) The robot can be controlled by enforcing quantities derived from the simpler spring-mass model, such as leg angles and leg forces. 3) ATRIAS replicates the center-of-mass dynamics of human hopping and (novelly) walking, a key spring-mass model feature. Lastly, we present dynamically stable stepping in 3D without external support, demonstrating that this theoretical model has practical potential for real-world locomotion.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916648388
+UR  - https://doi.org/10.1177/0278364916648388
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Constrained stochastic optimal control with learned importance sampling: A path integral approach
+AU  - Carius, Jan
+AU  - Ranftl, René
+AU  - Farshidian, Farbod
+AU  - Hutter, Marco
+Y1  - 2021/10/12
+PY  - 2021
+DA  - 2022/02/01
+N1  - doi: 10.1177/02783649211047890
+DO  - 10.1177/02783649211047890
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 189
+EP  - 209
+VL  - 41
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - Modern robotic systems are expected to operate robustly in partially unknown environments. This article proposes an algorithm capable of controlling a wide range of high-dimensional robotic systems in such challenging scenarios. Our method is based on the path integral formulation of stochastic optimal control, which we extend with constraint-handling capabilities. Under our control law, the optimal input is inferred from a set of stochastic rollouts of the system dynamics. These rollouts are simulated by a physics engine, placing minimal restrictions on the types of systems and environments that can be modeled. Although sampling-based algorithms are typically not suitable for online control, we demonstrate in this work how importance sampling and constraints can be used to effectively curb the sampling complexity and enable real-time control applications. Furthermore, the path integral framework provides a natural way of incorporating existing control architectures as ancillary controllers for shaping the sampling distribution. Our results reveal that even in cases where the ancillary controller would fail, our stochastic control algorithm provides an additional safety and robustness layer. Moreover, in the absence of an existing ancillary controller, our method can be used to train a parametrized importance sampling policy using data from the stochastic rollouts. The algorithm may thereby bootstrap itself by learning an importance sampling policy offline and then refining it to unseen environments during online control. We validate our results on three robotic systems, including hardware experiments on a quadrupedal robot.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211047890
+UR  - https://doi.org/10.1177/02783649211047890
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Interactive robogami: An end-to-end system for design of robots with ground locomotion
+AU  - Schulz, Adriana
+AU  - Sung, Cynthia
+AU  - Spielberg, Andrew
+AU  - Zhao, Wei
+AU  - Cheng, Robin
+AU  - Grinspun, Eitan
+AU  - Rus, Daniela
+AU  - Matusik, Wojciech
+Y1  - 2017/08/13
+PY  - 2017
+DA  - 2017/09/01
+N1  - doi: 10.1177/0278364917723465
+DO  - 10.1177/0278364917723465
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1131
+EP  - 1147
+VL  - 36
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - This paper aims to democratize the design and fabrication of robots, enabling people of all skill levels to make robots without needing expert domain knowledge. Existing work in computational design and rapid fabrication has explored this question of customization for physical objects but so far has not been able to conquer the complexity of robot designs. We have developed Interactive Robogami, a tool for composition-based design of ground robots that can be fabricated as flat sheets and then folded into 3D structures. This rapid prototyping process enables users to create lightweight, affordable, and materially versatile robots with short turnaround time. Using Interactive Robogami, designers can compose new robot designs from a database of print-and-fold parts. The designs are tested for the users? functional specifications via simulation and fabricated on user satisfaction. We present six robots designed and fabricated using a 3D printing based approach, as well as a larger robot cut from sheet metal. We have also conducted a user study that demonstrates that our tool is intuitive for novice designers and expressive enough to create a wide variety of ground robot designs.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917723465
+UR  - https://doi.org/10.1177/0278364917723465
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Nonholonomic virtual constraints and gait optimization for robust walking control
+AU  - Griffin, Brent
+AU  - Grizzle, Jessy
+Y1  - 2017/05/23
+PY  - 2017
+DA  - 2017/07/01
+N1  - doi: 10.1177/0278364917708249
+DO  - 10.1177/0278364917708249
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 895
+EP  - 922
+VL  - 36
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - A key challenge in robotic bipedal locomotion is the design of feedback controllers that function well in the presence of uncertainty, in both the robot and its environment. This paper addresses the design of feedback controllers and periodic gaits that function well in the presence of modest terrain variation, without over-reliance on perception and a priori knowledge of the environment. Model-based design methods are introduced and subsequently validated in simulation and experiment on MARLO, an underactuated three-dimensional bipedal robot that is of roughly human size and is equipped with an inertial measurement unit and joint encoders. Innovations include an optimization method that accounts for multiple types of disturbances and a feedback control design that enables continuous velocity-based posture regulation via nonholonomic virtual constraints. Using a single continuously defined controller taken directly from optimization, MARLO traverses sloped sidewalks and parking lots, terrain covered with randomly thrown boards, and grass fields, all while maintaining average walking speeds between 0.9 and 0.98 m/s and setting a new precedent for walking efficiency in realistic environments.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917708249
+UR  - https://doi.org/10.1177/0278364917708249
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Towards dynamic trot gait locomotion: Design, control, and experiments with Cheetah-cub, a compliant quadruped robot
+AU  - Spröwitz, Alexander
+AU  - Tuleu, Alexandre
+AU  - Vespignani, Massimo
+AU  - Ajallooeian, Mostafa
+AU  - Badri, Emilie
+AU  - Ijspeert, Auke Jan
+Y1  - 2013/06/17
+PY  - 2013
+DA  - 2013/07/01
+N1  - doi: 10.1177/0278364913489205
+DO  - 10.1177/0278364913489205
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 932
+EP  - 950
+VL  - 32
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - We present the design of a novel compliant quadruped robot, called Cheetah-cub, and a series of locomotion experiments with fast trotting gaits. The robot?s leg configuration is based on a spring-loaded, pantograph mechanism with multiple segments. A dedicated open-loop locomotion controller was derived and implemented. Experiments were run in simulation and in hardware on flat terrain and with a step down, demonstrating the robot?s self-stabilizing properties. The robot reached a running trot with short flight phases with a maximum Froude number of FR = 1.30, or 6.9 body lengths per second. Morphological parameters such as the leg design also played a role. By adding distal in-series elasticity, self-stability and maximum robot speed improved. Our robot has several advantages, especially when compared with larger and stiffer quadruped robot designs. (1) It is, to the best of the authors? knowledge, the fastest of all quadruped robots below 30kg (in terms of Froude number and body lengths per second). (2) It shows self-stabilizing behavior over a large range of speeds with open-loop control. (3) It is lightweight, compact, and electrically powered. (4) It is cheap, easy to reproduce, robust, and safe to handle. This makes it an excellent tool for research of multi-segment legs in quadruped robots.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913489205
+UR  - https://doi.org/10.1177/0278364913489205
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - High speed locomotion for a quadrupedal microrobot
+AU  - Baisch, Andrew T.
+AU  - Ozcan, Onur
+AU  - Goldberg, Benjamin
+AU  - Ithier, Daniel
+AU  - Wood, Robert J.
+Y1  - 2014/05/01
+PY  - 2014
+DA  - 2014/07/01
+N1  - doi: 10.1177/0278364914521473
+DO  - 10.1177/0278364914521473
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1063
+EP  - 1082
+VL  - 33
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - Research over the past several decades has elucidated some of the mechanisms behind high speed, highly efficient, and robust locomotion in insects such as cockroaches. Roboticists have used this information to create biologically inspired machines capable of running, jumping, and climbing robustly over a variety of terrains. To date, little work has been done to develop an at-scale insect-inspired robot capable of similar feats due to challenges in fabrication, actuation, and electronics integration for a centimeter-scale device. This paper addresses these challenges through the design, fabrication, and control of a 1.27 g walking robot, the Harvard Ambulatory MicroRobot (HAMR). The current design is manufactured using a method inspired by pop-up books that enables fast and repeatable assembly of the miniature walking robot. Methods to drive HAMR at low and high speeds are presented, resulting in speeds up to 0.44 m/s (10.1 body lengths per second) and the ability to maneuver and control the robot along desired trajectories.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364914521473
+UR  - https://doi.org/10.1177/0278364914521473
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Dynamic walking and whole-body motion planning for humanoid robots: an integrated approach
+AU  - Dalibard, Sébastien
+AU  - El Khoury, Antonio
+AU  - Lamiraux, Florent
+AU  - Nakhaei, Alireza
+AU  - Taïx, Michel
+AU  - Laumond, Jean-Paul
+Y1  - 2013/07/29
+PY  - 2013
+DA  - 2013/08/01
+N1  - doi: 10.1177/0278364913481250
+DO  - 10.1177/0278364913481250
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1089
+EP  - 1103
+VL  - 32
+IS  - 9-10
+PB  - SAGE Publications Ltd STM
+N2  - This paper presents a general method for planning collision-free whole-body walking motions for humanoid robots. First, we present a randomized algorithm for constrained motion planning, that is used to generate collision-free statically balanced paths solving manipulation tasks. Then, we show that dynamic walking makes humanoid robots small-space controllable. Such a property allows to easily transform collision-free statically balanced paths into collision-free dynamically balanced trajectories. It leads to a sound algorithm which has been applied and evaluated on several problems where whole-body planning and walk are needed, and the results have been validated on a real HRP-2 robot.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913481250
+UR  - https://doi.org/10.1177/0278364913481250
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Efficient Walking Speed Optimization of a Humanoid Robot
+AU  - Hemker, T.
+AU  - Stelzer, M.
+AU  - von Stryk, O.
+AU  - Sakamoto, H.
+Y1  - 2009/02/01
+PY  - 2009
+DA  - 2009/02/01
+N1  - doi: 10.1177/0278364908095171
+DO  - 10.1177/0278364908095171
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 303
+EP  - 314
+VL  - 28
+IS  - 2
+PB  - SAGE Publications Ltd STM
+N2  - The development of optimized motions of humanoid robots that guarantee fast and also stable walking is an important task, especially in the context of autonomous soccer-playing robots in RoboCup. We present a walking motion optimization approach for the humanoid robot prototype HR18 which is equipped with a low-dimensional parameterized walking trajectory generator, joint motor controller and an internal stabilization. The robot is included as hardware-in-the-loop to define a low-dimensional black-box optimization problem. In contrast to previously performed walking optimization approaches, we apply a sequential surrogate optimization approach using stochastic approximation of the underlying objective function and sequential quadratic programming to search for a fast and stable walking motion. This is done under the conditions that only a small number of physical walking experiments should have to be carried out during the online optimization process. For the identified walking motion for the considered 55 cm tall humanoid robot, we measured a forward walking speed of more than 30 cm s-1 . With a modified version of the robot, even more than 40 cm s-1could be achieved in permanent operation.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908095171
+UR  - https://doi.org/10.1177/0278364908095171
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Randomized multi-modal motion planning for a humanoid robot manipulation task
+AU  - Hauser, Kris
+AU  - Ng-Thow-Hing, Victor
+Y1  - 2010/12/07
+PY  - 2010
+DA  - 2011/05/01
+N1  - doi: 10.1177/0278364910386985
+DO  - 10.1177/0278364910386985
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 678
+EP  - 698
+VL  - 30
+IS  - 6
+PB  - SAGE Publications Ltd STM
+N2  - Robots that perform complex manipulation tasks must be able to generate strategies that make and break contact with the object. This requires reasoning in a motion space with a particular multi-modal structure, in which the state contains both a discrete mode (the contact state) and a continuous configuration (the robot and object poses). In this paper we address multi-modal motion planning in the common setting where the state is high-dimensional, and there are a continuous infinity of modes. We present a highly general algorithm, Random-MMP, that repeatedly attempts mode switches sampled at random. A major theoretical result is that Random-MMP is formally reliable and scalable, and its running time depends on certain properties of the multi-modal structure of the problem that are not explicitly dependent on dimensionality. We apply the planner to a manipulation task on the Honda humanoid robot, where the robot is asked to push an object to a desired location on a cluttered table, and the robot is restricted to switch between walking, reaching, and pushing modes. Experiments in simulation and on the real robot demonstrate that Random-MMP solves problem instances that require several carefully chosen pushes in minutes on a PC.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364910386985
+UR  - https://doi.org/10.1177/0278364910386985
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Robust optimal planning and control of non-periodic bipedal locomotion with a centroidal momentum model
+AU  - Zhao, Ye
+AU  - Fernandez, Benito R
+AU  - Sentis, Luis
+Y1  - 2017/09/01
+PY  - 2017
+DA  - 2017/09/01
+N1  - doi: 10.1177/0278364917730602
+DO  - 10.1177/0278364917730602
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1211
+EP  - 1242
+VL  - 36
+IS  - 11
+PB  - SAGE Publications Ltd STM
+N2  - This study presents a theoretical method for planning and controlling agile bipedal locomotion based on robustly tracking a set of non-periodic keyframe states. Based on centroidal momentum dynamics, we formulate a hybrid phase-space planning and control method that includes the following key components: (i) a step transition solver that enables dynamically tracking non-periodic keyframe states over various types of terrain; (ii) a robust hybrid automaton to effectively formulate planning and control algorithms; (iii) a steering direction model to control the robot?s heading; (iv) a phase-space metric to measure distance to the planned locomotion manifolds; and (v) a hybrid control method based on the previous distance metric to produce robust dynamic locomotion under external disturbances. Compared with other locomotion methodologies, we have a large focus on non-periodic gait generation and robustness metrics to deal with disturbances. This focus enables the proposed control method to track non-periodic keyframe states robustly over various challenging terrains and under external disturbances, as illustrated through several simulations.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917730602
+UR  - https://doi.org/10.1177/0278364917730602
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Dynamic Rolling for a Modular Loop Robot
+AU  - Sastra, Jimmy
+AU  - Chitta, Sachin
+AU  - Yim, Mark
+Y1  - 2009/05/20
+PY  - 2009
+DA  - 2009/06/01
+N1  - doi: 10.1177/0278364908099463
+DO  - 10.1177/0278364908099463
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 758
+EP  - 773
+VL  - 28
+IS  - 6
+PB  - SAGE Publications Ltd STM
+N2  - Reconfigurable modular robots have the ability to use different gaits and configurations to perform various tasks. A rolling gait is the fastest currently implemented gait available for traversal over level ground and shows dramatic improvements in efficiency. In this work, we analyze and implement a sensor-based feedback controller to achieve dynamic rolling for a loop robot. The robot senses its position relative to the ground and changes its shape as it rolls. This shape is such that its center of gravity is maintained to be in front of its contact point with the ground, so in effect the robot is continuously falling and thus accelerates forward. Using simulation and experimental results, we show how the desired shape can be varied to achieve higher terminal velocities. The highest velocity achieved in this work is 26 module lengths per second (1.6 m/s) which is believed to be the fastest gait yet implemented for an untethered modular robot. One of the major findings is that more elongated shapes achieve higher terminal velocities than rounder shapes. We demonstrate that this trend holds going up inclines as well as down. We show that rounder shapes have lower specific resistance and are thus more energy efficient. The control scheme is scalable to an arbitrary number of modules, shown here using eight to 14 modules.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908099463
+UR  - https://doi.org/10.1177/0278364908099463
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Stable Running with Segmented Legs
+AU  - Rummel, Juergen
+AU  - Seyfarth, Andre
+Y1  - 2008/08/01
+PY  - 2008
+DA  - 2008/08/01
+N1  - doi: 10.1177/0278364908095136
+DO  - 10.1177/0278364908095136
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 919
+EP  - 934
+VL  - 27
+IS  - 8
+PB  - SAGE Publications Ltd STM
+N2  - Spring-like leg behavior is found in both humans and animals when running. In a spring-mass model, running proves to be self-stable in terms of external perturbations or variations in leg properties (for example, landing angle). However, biological limbs are not made of springs, rather, they consist of segments where spring-like behavior can be localized at the joint level. Here, we use a two-segment leg model to investigate the effects of leg compliance originating from the joint level on running stability. Owing to leg geometry a non-linear relationship between leg force and leg compression is found. In contrast to the linear leg spring, the segmented leg is capable of reducing the minimum speed for self-stable running from 3.5 m s-1 in the spring-mass model to 1.5 m s-1 for almost straight joint configurations, which is below the preferred transition speed from human walking to running (≈2 m s-1). At moderate speeds the tolerated range of landing angle is largely increased (17° at 5 m s-1) compare with the linear leg spring model (2°). However, for fast running an increase in joint stiffness is required to compensate for the mechanical disadvantage of larger leg compression. This could be achieved through the use of non-linear springs to enhance joint stiffness in fast running.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364908095136
+UR  - https://doi.org/10.1177/0278364908095136
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Admissible velocity propagation: Beyond quasi-static path planning for high-dimensional robots
+AU  - Pham, Quang-Cuong
+AU  - Caron, Stéphane
+AU  - Lertkultanon, Puttichai
+AU  - Nakamura, Yoshihiko
+Y1  - 2016/11/01
+PY  - 2016
+DA  - 2017/01/01
+N1  - doi: 10.1177/0278364916675419
+DO  - 10.1177/0278364916675419
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 44
+EP  - 67
+VL  - 36
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - Path-velocity decomposition is an intuitive yet powerful approach to addressing the complexity of kinodynamic motion planning. The difficult trajectory planning problem is solved in two separate, simpler steps: first, a path is found in the configuration space that satisfies the geometric constraints (path planning), and second, a time-parameterization of that path satisfying the kinodynamic constraints is found. A fundamental requirement is that the path found in the first step must be time-parameterizable. Most existing works fulfill this requirement by enforcing quasi-static constraints during the path planning step, resulting in an important loss in completeness. We propose a method that enables path-velocity decomposition to discover truly dynamic motions, i.e. motions that are not quasi-statically executable. At the heart of the proposed method is a new algorithm ? Admissible Velocity Propagation ? which, given a path and an interval of reachable velocities at the beginning of that path, computes exactly and efficiently the interval of all the velocities the system can reach after traversing the path, while respecting the system?s kinodynamic constraints. Combining this algorithm with usual sampling-based planners then gives rise to a family of new trajectory planners that can appropriately handle kinodynamic constraints while retaining the advantages associated with path-velocity decomposition. We demonstrate the efficiency of the proposed method on some difficult kinodynamic planning problems, where, in particular, quasi-static methods are guaranteed to fail.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364916675419
+UR  - https://doi.org/10.1177/0278364916675419
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - How to train your robot with deep reinforcement learning: lessons we have learned
+AU  - Ibarz, Julian
+AU  - Tan, Jie
+AU  - Finn, Chelsea
+AU  - Kalakrishnan, Mrinal
+AU  - Pastor, Peter
+AU  - Levine, Sergey
+Y1  - 2021/01/31
+PY  - 2021
+DA  - 2021/04/01
+N1  - doi: 10.1177/0278364920987859
+DO  - 10.1177/0278364920987859
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 698
+EP  - 721
+VL  - 40
+IS  - 4-5
+PB  - SAGE Publications Ltd STM
+N2  - Deep reinforcement learning (RL) has emerged as a promising approach for autonomously acquiring complex behaviors from low-level sensor observations. Although a large portion of deep RL research has focused on applications in video games and simulated control, which does not connect with the constraints of learning in real environments, deep RL has also demonstrated promise in enabling physical robots to learn complex skills in the real world. At the same time, real-world robotics provides an appealing domain for evaluating such algorithms, as it connects directly to how humans learn: as an embodied agent in the real world. Learning to perceive and move in the real world presents numerous challenges, some of which are easier to address than others, and some of which are often not considered in RL research that focuses only on simulated domains. In this review article, we present a number of case studies involving robotic deep RL. Building off of these case studies, we discuss commonly perceived challenges in deep RL and how they have been addressed in these works. We also provide an overview of other outstanding challenges, many of which are unique to the real-world robotics setting and are not often the focus of mainstream RL research. Our goal is to provide a resource both for roboticists and machine learning researchers who are interested in furthering the progress of deep RL in the real world.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364920987859
+UR  - https://doi.org/10.1177/0278364920987859
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - An efficient leg with series–parallel and biarticular compliant actuation: design optimization, modeling, and control of the eLeg
+AU  - Roozing, Wesley
+AU  - Ren, Zeyu
+AU  - Tsagarakis, Nikos G
+Y1  - 2019/12/16
+PY  - 2019
+DA  - 2021/01/01
+N1  - doi: 10.1177/0278364919893762
+DO  - 10.1177/0278364919893762
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 37
+EP  - 54
+VL  - 40
+IS  - 1
+PB  - SAGE Publications Ltd STM
+N2  - We present the development, modeling, and control of a three-degree-of-freedom compliantly actuated leg called the eLeg, which employs both series- and parallel-elastic actuation as well as a bio-inspired biarticular tendon. The leg can be reconfigured to use three distinct actuation configurations, to directly compare with a state-of-the-art series-elastic actuation scheme. Critical actuation design parameters are derived through optimization. A rigorous modeling approach is presented using the concept of power flows, which are also used to demonstrate the ability to transfer mechanical power between ankle and knee joints using the biarticular tendon. The design principles and control strategies were verified both in simulation and experiment. Notably, the experimental data demonstrate significant improvements of 65?75% in electrical energy consumption compared with a state-of-the-art series-elastic actuator configuration.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919893762
+UR  - https://doi.org/10.1177/0278364919893762
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Reinforcement learning in robotics: A survey
+AU  - Kober, Jens
+AU  - Bagnell, J. Andrew
+AU  - Peters, Jan
+Y1  - 2013/08/23
+PY  - 2013
+DA  - 2013/09/01
+N1  - doi: 10.1177/0278364913495721
+DO  - 10.1177/0278364913495721
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1238
+EP  - 1274
+VL  - 32
+IS  - 11
+PB  - SAGE Publications Ltd STM
+N2  - Reinforcement learning offers to robotics a framework and set of tools for the design of sophisticated and hard-to-engineer behaviors. Conversely, the challenges of robotic problems provide both inspiration, impact, and validation for developments in reinforcement learning. The relationship between disciplines has sufficient promise to be likened to that between physics and mathematics. In this article, we attempt to strengthen the links between the two research communities by providing a survey of work in reinforcement learning for behavior generation in robots. We highlight both key challenges in robot reinforcement learning as well as notable successes. We discuss how contributions tamed the complexity of the domain and study the role of algorithms, representations, and prior knowledge in achieving these successes. As a result, a particular focus of our paper lies on the choice between model-based and model-free as well as between value-function-based and policy-search methods. By analyzing a simple problem in some detail we demonstrate how reinforcement learning approaches may be profitably applied, and we note throughout open questions and the tremendous potential for future research.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913495721
+UR  - https://doi.org/10.1177/0278364913495721
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Geometry-aware manipulability learning, tracking, and transfer
+AU  - Jaquier, Noémie
+AU  - Rozo, Leonel
+AU  - Caldwell, Darwin G
+AU  - Calinon, Sylvain
+Y1  - 2020/08/24
+PY  - 2020
+DA  - 2021/02/01
+N1  - doi: 10.1177/0278364920946815
+DO  - 10.1177/0278364920946815
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 624
+EP  - 650
+VL  - 40
+IS  - 2-3
+PB  - SAGE Publications Ltd STM
+N2  - Body posture influences human and robot performance in manipulation tasks, as appropriate poses facilitate motion or the exertion of force along different axes. In robotics, manipulability ellipsoids arise as a powerful descriptor to analyze, control, and design the robot dexterity as a function of the articulatory joint configuration. This descriptor can be designed according to different task requirements, such as tracking a desired position or applying a specific force. In this context, this article presents a novel manipulability transfer framework, a method that allows robots to learn and reproduce manipulability ellipsoids from expert demonstrations. The proposed learning scheme is built on a tensor-based formulation of a Gaussian mixture model that takes into account that manipulability ellipsoids lie on the manifold of symmetric positive-definite matrices. Learning is coupled with a geometry-aware tracking controller allowing robots to follow a desired profile of manipulability ellipsoids. Extensive evaluations in simulation with redundant manipulators, a robotic hand and humanoids agents, as well as an experiment with two real dual-arm systems validate the feasibility of the approach.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364920946815
+UR  - https://doi.org/10.1177/0278364920946815
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Deep spatiotemporal models for robust proprioceptive terrain classification
+AU  - Valada, Abhinav
+AU  - Burgard, Wolfram
+Y1  - 2017/08/31
+PY  - 2017
+DA  - 2017/12/01
+N1  - doi: 10.1177/0278364917727062
+DO  - 10.1177/0278364917727062
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1521
+EP  - 1539
+VL  - 36
+IS  - 13-14
+PB  - SAGE Publications Ltd STM
+N2  - Terrain classification is a critical component of any autonomous mobile robot system operating in unknown real-world environments. Over the years, several proprioceptive terrain classification techniques have been introduced to increase robustness or act as a fallback for traditional vision based approaches. However, they lack widespread adaptation due to various factors that include inadequate accuracy, robustness and slow run-times. In this paper, we use vehicle-terrain interaction sounds as a proprioceptive modality and propose a deep long-short term memory based recurrent model that captures both the spatial and temporal dynamics of such a problem, thereby overcoming these past limitations. Our model consists of a new convolution neural network architecture that learns deep spatial features, complemented with long-short term memory units that learn complex temporal dynamics. Experiments on two extensive datasets collected with different microphones on various indoor and outdoor terrains demonstrate state-of-the-art performance compared to existing techniques. We additionally evaluate the performance in adverse acoustic conditions with high-ambient noise and propose a noise-aware training scheme that enables learning of more generalizable models that are essential for robust real-world deployments.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364917727062
+UR  - https://doi.org/10.1177/0278364917727062
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - RT-Mover: a rough terrain mobile robot with a simple leg–wheel hybrid mechanism
+AU  - Nakajima, Shuro
+Y1  - 2011/06/22
+PY  - 2011
+DA  - 2011/11/01
+N1  - doi: 10.1177/0278364911405697
+DO  - 10.1177/0278364911405697
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1609
+EP  - 1626
+VL  - 30
+IS  - 13
+PB  - SAGE Publications Ltd STM
+N2  - There is a strong demand in many fields for practical robots, such as a porter robot and a personal mobility robot, that can move over rough terrain while carrying a load horizontally. We have developed a robot, called RT-Mover, which shows adequate mobility performance on targeted types of rough terrain. It has four drivable wheels and two leg-like axles but only five active shafts. A strength of this robot is that it realizes both a leg mode and a wheel mode in a simple mechanism. In this paper, the mechanical design concept is discussed. With an emphasis on minimizing the number of drive shafts, a mechanism is designed for a four-wheeled mobile body that is widely used in practical locomotive machinery. Also, strategies for moving on rough terrain are proposed. The kinematics, stability, and control of RT-Mover are also described in detail. Some typical cases of rough terrain for wheel mode and leg mode are selected, and the robot?s ability of locomotion is assessed through simulations and experiments. In each case, the robot is able to move over rough terrain while maintaining the horizontal orientation of its platform.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364911405697
+UR  - https://doi.org/10.1177/0278364911405697
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Frequency modulation of body waves to improve performance of sidewinding robots
+AU  - Chong, Baxi
+AU  - Wang, Tianyu
+AU  - Rieser, Jennifer M.
+AU  - Lin, Bo
+AU  - Kaba, Abdul
+AU  - Blekherman, Grigoriy
+AU  - Choset, Howie
+AU  - Goldman, Daniel I.
+Y1  - 2021/08/12
+PY  - 2021
+DA  - 2021/12/01
+N1  - doi: 10.1177/02783649211037715
+DO  - 10.1177/02783649211037715
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1547
+EP  - 1562
+VL  - 40
+IS  - 12-14
+PB  - SAGE Publications Ltd STM
+N2  - Sidewinding is a form of locomotion executed by certain snakes and has been reconstructed in limbless robots; the gait is beneficial because it is effective in diverse terrestrial environments. Sidewinding gaits are generated by coordination of horizontal and vertical traveling waves of body undulation: the horizontal wave largely sets the direction of sidewinding with respect to the body frame while the vertical traveling wave largely determines the contact pattern between the body and the environment. When the locomotor?s center of mass leaves the supporting polygon formed by the contact pattern, undesirable locomotor behaviors (such as unwanted turning or unstable oscillation of the body) can occur. In this article, we develop an approach to generate desired translation and turning by modulating the vertical wave. These modulations alter the distribution of body?environment contact patches and can stabilize configurations that were previously statically unstable. The approach first identifies the spatial frequency of the vertical wave that statically stabilizes the locomotor for a given horizontal wave. Then, using geometric mechanics tools, we design the coordination between body waves that produces the desired translation or rotation. We demonstrate the effectiveness of our technique in numerical simulations and on experiments with a 16-joint limbless robot locomoting on flat hard ground. Our scheme broadens the range of movements and behaviors accessible to sidewinding locomotors at low speeds, which can lead to limbless systems capable of traversing diverse terrain stably and/or rapidly.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211037715
+UR  - https://doi.org/10.1177/02783649211037715
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Visual Servoing for Nonholonomically Constrained Three Degree of Freedom Kinematic Systems
+AU  - Lopes, Gabriel A. D.
+AU  - Koditschek, Daniel E.
+Y1  - 2007/07/01
+PY  - 2007
+DA  - 2007/07/01
+N1  - doi: 10.1177/0278364907080737
+DO  - 10.1177/0278364907080737
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 715
+EP  - 736
+VL  - 26
+IS  - 7
+PB  - SAGE Publications Ltd STM
+N2  - This paper addresses problems of robot navigation with nonholonomic motion constraints and perceptual cues arising from onboard visual servoing in partially engineered environments. A general hybrid procedure is proposed that adapts to the constrained motion setting the standard feedback controller arising from a navigation function in the fully actuated case. This is accomplished by switching back and forth between moving ?down? and ?across? the associated gradient field toward the stable manifold it induces in the constrained dynamics. Guaranteed to avoid obstacles in all cases, conditions are provided under which the new procedure brings initial configurations to within an arbitrarily small neighborhood of the goal.Simulation results are given for a sample of visual servoing problems with a few different perceptual models. The empirical effectiveness of the proposed algorithm is documented by reporting results of its application to outdoor autonomous visual registration experiments with the robot RHex guided by engineered beacons.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364907080737
+UR  - https://doi.org/10.1177/0278364907080737
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Fast damage recovery in robotics with the T-resilience algorithm
+AU  - Koos, Sylvain
+AU  - Cully, Antoine
+AU  - Mouret, Jean-Baptiste
+Y1  - 2013/10/04
+PY  - 2013
+DA  - 2013/12/01
+N1  - doi: 10.1177/0278364913499192
+DO  - 10.1177/0278364913499192
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1700
+EP  - 1723
+VL  - 32
+IS  - 14
+PB  - SAGE Publications Ltd STM
+N2  - Damage recovery is critical for autonomous robots that need to operate for a long time without assistance. Most current methods are complex and costly because they require anticipating potential damage in order to have a contingency plan ready. As an alternative, we introduce the T-resilience algorithm, a new algorithm that allows robots to quickly and autonomously discover compensatory behavior in unanticipated situations. This algorithm equips the robot with a self-model and discovers new behavior by learning to avoid those that perform differently in the self-model and in reality. Our algorithm thus does not identify the damaged parts but it implicitly searches for efficient behavior that does not use them. We evaluate the T-resilience algorithm on a hexapod robot that needs to adapt to leg removal, broken legs and motor failures; we compare it to stochastic local search, policy gradient and the self-modeling algorithm proposed by Bongard et al. The behavior of the robot is assessed on-board thanks to an RGB-D sensor and a SLAM algorithm. Using only 25 tests on the robot and an overall running time of 20 min, T-resilience consistently leads to substantially better results than the other approaches.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364913499192
+UR  - https://doi.org/10.1177/0278364913499192
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Kinematically redundant actuators, a solution for conflicting torque–speed requirements
+AU  - Verstraten, Tom
+AU  - Furnémont, Raphael
+AU  - López-García, Pablo
+AU  - Rodriguez-Cianca, David
+AU  - Vanderborght, Bram
+AU  - Lefeber, Dirk
+Y1  - 2019/01/31
+PY  - 2019
+DA  - 2019/04/01
+N1  - doi: 10.1177/0278364919826382
+DO  - 10.1177/0278364919826382
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 612
+EP  - 629
+VL  - 38
+IS  - 5
+PB  - SAGE Publications Ltd STM
+N2  - Robots often switch from highly dynamic motion to delivering high torques at low speeds. The actuation requirements for these two regimes are very different. As a consequence, the average efficiency of the actuators is typically much lower than the efficiency at the optimal working point. A potential solution is to use multiple motors for a single motor joint. This results in a redundant degree of freedom, which can be exploited to make the system more efficient overall. In this work, we explore the potential of kinematically redundant actuators in dynamic applications. The potential of a kinematically redundant actuator with two motors is evaluated against a single-motor equivalent in terms of operating range, maximum acceleration, and energy consumption. We discuss how the comparison is influenced by the design of the actuator and the way how the power is distributed over the input motors. Our results support the idea that kinematically redundant actuators can resolve the conflicting torque?speed requirements typical of robots.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364919826382
+UR  - https://doi.org/10.1177/0278364919826382
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - An efficient, modular controller for flapping flight composing model-based and model-free components
+AU  - De, Avik
+AU  - McGill, Rebecca
+AU  - Wood, Robert J
+Y1  - 2022/03/15
+PY  - 2022
+N1  - doi: 10.1177/02783649211063225
+DO  - 10.1177/02783649211063225
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 02783649211063225
+PB  - SAGE Publications Ltd STM
+N2  - We present a controller that combines model-based methods with model-free data-driven methods hierarchically, utilizing the predictive power of template models with the strengths of model-free methods to account for model error, such as due to manufacturing variability in the RoboBee, a 100 mg flapping-wing micro aerial vehicle (FWMAV). Using a large suite of numerical trials, we show that the model-predictive high-level component of the proposed controller is more performant, easier to tune, and able to stabilize more dynamic tasks than a baseline reactive controller, while the data-driven inverse dynamics controller is able to better compensate for biases arising from manufacturing variability. At the same time, the formulated controller is very computationally efficient, with the MPC implemented at 5 KHz on a Simulink embedded target, via which we empirically demonstrate controlled hovering on a RoboBee.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211063225
+UR  - https://doi.org/10.1177/02783649211063225
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Joint search of optimal topology and trajectory for planar linkages
+AU  - Pan, Zherong
+AU  - Liu, Min
+AU  - Gao, Xifeng
+AU  - Manocha, Dinesh
+Y1  - 2022/03/28
+PY  - 2022
+N1  - doi: 10.1177/02783649211069156
+DO  - 10.1177/02783649211069156
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 02783649211069156
+PB  - SAGE Publications Ltd STM
+N2  - We present an algorithm to compute planar linkage topology and geometry, given a user-specified end-effector trajectory. Planar linkage structures convert rotational or prismatic motions of a single actuator into an arbitrarily complex periodic motion, which is an important component when building low-cost, modular robots, mechanical toys, and foldable structures in our daily lives (chairs, bikes, and shelves). The design of such structures requires trial and error even for experienced engineers. Our research provides semi-automatic methods for exploring novel designs given high-level specifications and constraints. We formulate this problem as a non-smooth numerical optimization with quadratic objective functions and non-convex quadratic constraints involving mixed-integer decision variables (MIQCQP). We propose and compare three approximate algorithms to solve this problem: mixed-integer conic-programming (MICP), mixed-integer nonlinear programming (MINLP), and simulated annealing (SA). We evaluated these algorithms searching for planar linkages involving 10 ? 14 rigid links. Our results show that the best performance can be achieved by combining MICP and MINLP, leading to a hybrid algorithm capable of finding the planar linkages within a couple of hours on a desktop machine, which significantly outperforms the SA baseline in terms of optimality. We highlight the effectiveness of our optimized planar linkages by using them as legs of a walking robot.
+SN  - 0278-3649
+M3  - doi: 10.1177/02783649211069156
+UR  - https://doi.org/10.1177/02783649211069156
+Y2  - 2022/04/05
+ER  - 
+
+TY  - JOUR
+T1  - Roll and Pitch Motion Analysis of a Biologically Inspired Quadruped Water Runner Robot
+AU  - Hyun Soo Park
+AU  - Floyd, Steven
+AU  - Sitti, Metin
+Y1  - 2009/12/04
+PY  - 2009
+DA  - 2010/09/01
+N1  - doi: 10.1177/0278364909354391
+DO  - 10.1177/0278364909354391
+T2  - The International Journal of Robotics Research
+JF  - The International Journal of Robotics Research
+JO  - The International Journal of Robotics Research
+SP  - 1281
+EP  - 1297
+VL  - 29
+IS  - 10
+PB  - SAGE Publications Ltd STM
+N2  - In this paper, the roll and pitch dynamics of a biologically inspired quadruped water runner robot are analyzed, and a stable robot design is proposed and tested. The robot?s foot?water interaction force is derived using drag equations. Roll direction instability is attributed to a small roll moment of inertia and large instantaneous roll moments generated by the foot?water interaction forces. Roll dynamics are modeled by approximating the water as a linear spring. Using this model, estimates on the roll moment of inertia that can endure moments generated by water interactions are derived. Instability in the pitch direction is caused by the thrust force the four feet exert on the water. To correct this, a circular tail which can negate the pitch moment around the center of mass is proposed. Both passive and active tail designs which can cope with disturbances are introduced. Based on these analyses, a stable water runner is designed, and built. Experimental high-speed video footage demonstrates the stable roll and pitch motion of the robot. Simulations are used to estimate robustness against disturbances, waves, and leg running frequency variations. It is found that roll motion is more sensitive to disturbances when compared with the pitch direction.
+SN  - 0278-3649
+M3  - doi: 10.1177/0278364909354391
+UR  - https://doi.org/10.1177/0278364909354391
+Y2  - 2022/04/05
+ER  - 

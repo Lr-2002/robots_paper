@@ -1,16 +1,7 @@
 name,note_list
-Contact Forces Preintegration for Estimation in Legged Robotics Using Factor Graphs,https://ieeexplore.ieee.org/document/9561037/
-The Dynamic Effect of Mechanical Losses of Transmissions on the Equations of Motion of Legged  Robots,https://ieeexplore.ieee.org/document/9561739/
-Impact Mitigation for Dynamic Legged Robots with Steel Wire Transmission Using Nonlinear Active  Compliance Control,https://ieeexplore.ieee.org/document/9561641/
-Stair Climbing Capability-Based Dimensional Synthesis for the Multi-Legged Robot,https://ieeexplore.ieee.org/document/9562004/
-State Estimation for Hybrid Wheeled-Legged Robots Performing Mobile Manipulation Tasks,https://ieeexplore.ieee.org/document/9560948/
-ULT-Model: Towards a One-Legged Unified Locomotion Template Model for Forward Hopping with  an Upright Trunk,https://ieeexplore.ieee.org/document/9560780/
-Nonlinear Stiffness Allows Passive Dynamic Hopping for One-Legged Robots with an Upright  Trunk,https://ieeexplore.ieee.org/document/9561568/
-Configuration Transformation of the Wheel-Legged Robot Using Inverse Dynamics Control,https://ieeexplore.ieee.org/document/9560781/
-A Passive Hydraulic Auxiliary System Designed for Increasing Legged Robot Payload and  Efficiency,https://ieeexplore.ieee.org/document/9561581/
-Legged Robot State Estimation in Slippery Environments UsingInvariant Extended Kalman Filter  with Velocity Update,0
-Learning a Centroidal Motion Planner for Legged Locomotion,https://ieeexplore.ieee.org/document/9562022/
-Optimal Estimation of the Centroidal Dynamics of Legged Robots,https://ieeexplore.ieee.org/document/9561993/
-A Novel Model Predictive Control Framework Using Dynamic Model Decomposition Applied to  Dynamic Legged Locomotion,https://ieeexplore.ieee.org/document/9561499/
-Generating Continuous Motion and Force Plans in Real-Time for Legged Mobile Manipulation,https://ieeexplore.ieee.org/document/9561117/
-Planning in Learned Latent Action Spaces for Generalizable Legged Locomotion,https://ieeexplore.ieee.org/document/9363629/
+Zero Step Capturability for Legged Robots in Multicontact,https://ieeexplore.ieee.org/document/8383993/
+Benchmarking Agility For Multilegged Terrestrial Robots,https://ieeexplore.ieee.org/document/8610238/
+C-CROC: Continuous and Convex Resolution of Centroidal Dynamic Trajectories for Legged Robots in Multicontact Scenarios,https://ieeexplore.ieee.org/document/8972482/
+A Motion Planning Approach for Nonprehensile Manipulation and Locomotion Tasks of a Legged Robot,https://ieeexplore.ieee.org/document/8979158/
+Navigation for Legged Mobility: Dynamic Climbing,https://ieeexplore.ieee.org/document/8946895/
+Tactile Sensing and Terrain-Based Gait Control for Small Legged Robots,https://ieeexplore.ieee.org/document/8823987/

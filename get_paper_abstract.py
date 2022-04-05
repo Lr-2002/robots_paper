@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import re
 import json
 import pandas as pd
-from torch import abs_
 def save_html(filename, file_content):
     with open(filename+'.html', 'x', encoding='utf-8') as f:
         f.write(file_content)
@@ -65,4 +64,4 @@ with tqdm(total=len(id_list)) as pbar:
         pbar.update(1)
 
 abs_dict = {'name':total, 'abs':abs_list, 'link':name}
-df = pd.DataFrame(abs_dict).to_csv('abstract.csv', index=False)
+df = pd.DataFrame(abs_dict).to_csv('abstract_tro.csv', index=False)

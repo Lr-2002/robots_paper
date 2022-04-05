@@ -13,7 +13,7 @@ def save_html(filename, file_content):
         f.write(file_content)
 
 
-df = pd.read_csv('./name_list.csv')
+df = pd.read_csv('./tro_name.csv')
 table = df.values
 option = webdriver.ChromeOptions()
 option.add_argument('headless')
